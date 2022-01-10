@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekll 설치와 사이트 만들기"
+title:  "Jekyll 설치와 사이트 만들기"
 ---
 
 1. Homebrew 이용하여 ruby Upgrade
@@ -21,7 +21,8 @@ title:  "Jekll 설치와 사이트 만들기"
 ```
 로컬에서 서버가 구동된다. 브라우저에서 localhost:4000 으로 접속하면 된다.
 첫 사이트 생성 완료!!
-`jekyll new <site_name>` 에서 site_name에 해당하는 directory가 존재하고 파일들이 있으면 에러가 난다. 최소 비어있는 directory거나 아직 생성되어있지 않아야 한다.
+
+`jekyll new <site_name>` 에서 `<site_name>`에 해당하는 directory가 존재하고 파일들이 있으면 에러가 난다. 최소 비어있는 directory거나 아직 생성되어있지 않아야 한다.
 
 
 4. github에 올리기
