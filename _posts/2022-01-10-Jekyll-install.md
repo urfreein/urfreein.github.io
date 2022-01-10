@@ -14,11 +14,10 @@ title:  "Jekll 설치와 사이트 만들기"
 ```
 
 3. Jekyll site 만들기
-
 ```
 ~ $ jekyll new my-awesome-site
 ~ $ cd my-awesome-site
-~ $ bundle exec jekyll serve
+~/my-awesome-site $ bundle exec jekyll serve
 ```
 로컬에서 서버가 구동된다. 브라우저에서 localhost:4000 으로 접속하면 된다.
 첫 사이트 생성 완료!!
