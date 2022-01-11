@@ -30,7 +30,7 @@ url: "https://urfreein.github.io" # the base hostname & protocol for your site, 
 github_username:  urfreein
 
 # Build settings
-theme: jekyll-theme-hydure
+theme: hydure
 plugins:
   - jekyll-feed
 
