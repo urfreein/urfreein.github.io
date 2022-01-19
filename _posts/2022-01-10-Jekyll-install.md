@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Jekyll 설치와 사이트 만들기"\
-date:
+title:  "Jekyll 설치와 사이트 만들기"
 categories: jekyll installation
 ---
 

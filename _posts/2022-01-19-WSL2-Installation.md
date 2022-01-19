@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "WSL2 설치하기"
-date:
+title: "WSL2 설치하기"
 categories: WSL2 installation
 ---
 
