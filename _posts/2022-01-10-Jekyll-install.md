@@ -8,6 +8,8 @@ title:  "Jekyll 설치와 사이트 만들기"
 ~ $ brew install rbenv
 ~ $ rbenv install 3.0.1
 ```
+Windows에서 ruby설치는 installer 받아서 설치한다.
+
 2. Jekyll 설치
 ```bash
 ~ $ gem install jekyll bundler
