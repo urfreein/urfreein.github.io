@@ -30,7 +30,7 @@ twitter_username: yesix71
 github_username:  urfreein
 
 # Build settings
-theme: jekyll-theme-hydure
+theme: minima
 plugins:
   - jekyll-feed
 
