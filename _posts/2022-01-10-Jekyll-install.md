@@ -4,7 +4,7 @@ title:  "Jekyll 설치와 사이트 만들기"
 categories: jekyll installation
 ---
 
-1. Homebrew 이용하여 ruby Upgrade
+1. Homebrew 이용하여 ruby Upgrade on the Mac
 ```bash
 ~ $ brew install rbenv
 ~ $ rbenv install 3.0.1
@@ -39,6 +39,6 @@ Windows에서 ruby설치는 installer 받아서 설치한다.
 ~/my-awesome-site $ git push origin master
 ```
 
-정상적으로 push가 되면 이제 브라우저에서 `https://username.github.io` 로 접속하면 로컬에서 보던 것과 똑같이 보인다. 다만, 페이지 생성에 시간이 소요되어 수십초 내지 몇 분 후에 정상적으로 나온다. 즉각적인 확인이 안되어 조금 답답하다.
+정상적으로 push가 되면 이제 브라우저에서 *<https://username.github.io>* 로 접속하면 로컬에서 보던 것과 똑같이 보인다. 다만, 페이지 생성에 시간이 소요되어 수십초 내지 몇 분 후에 정상적으로 나온다. 즉각적인 확인이 안되어 조금 답답하다.
 따라서, 조금 바꾸고 github에서 적용된 것을 확인하기 보다는 로컬에서 확인 후 모든 것이 다 되었다고 생각될 때, 한번에 올려서 확인하는 것이 정신건강에 좋을 것 같다.
 
