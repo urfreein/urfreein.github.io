@@ -10,6 +10,7 @@ categories: jekyll installation
 ~ $ rbenv install 3.0.1
 ```
 Windows에서 ruby설치는 installer 받아서 설치한다.
+
 ### 2. Jekyll 설치
 ```bash
 ~ $ gem install jekyll bundler
