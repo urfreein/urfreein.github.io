@@ -30,4 +30,5 @@ wsl --install -d Ubuntu
 4. 설치후 할일
 * VS Code에 WSL extension 설치
 * git 설치
-* Bash를 zsh로 변경하고, oh-my-zsh 설치하여 프롬프트 변경하기  
+* Bash를 zsh로 변경하고, oh-my-zsh 설치하여 프롬프트 변경하기 
+* ruby, jekyll 등 설치하기 
