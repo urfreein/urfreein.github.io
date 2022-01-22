@@ -51,10 +51,12 @@ categories: raspberrypi installation
     ```
     $ sudo apt update && sudo apt upgrade
     ```
-* 그외 git, python이 없다면 설치해준다.
+* 그외 git, python이 없다면 설치하고, python용 Build HAT Library도 설치한다.
 ```bash
 $ sudo apt git
 $ sudo apt python
+# python용 Build HAT Library를 설치한다.
+$ sudo pip3 install buildhat
 ```
 
 ### 4. Remote PC에서 작업하기
