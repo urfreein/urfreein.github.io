@@ -31,7 +31,7 @@ github_username:  urfreein
 
 cover: "cover.jpg"
 # Build settings
-theme: jekyll-theme-hydure
+theme: minima
 plugins:
   - jekyll-feed
 
