@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "레고로 자율주행차 만들기위한 준비물"
-categories: raspberrypi lego
+categories: [Raspberrypi, Lego]
+tags: [raspberrypi, lego]
 ---
 
 ### 1. Raspberry Pi
