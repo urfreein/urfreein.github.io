@@ -16,7 +16,7 @@ tags: [WSL, WSL2]
 ### 2. WSL 설치전 준비
 * Windows Terminal 을 설치하여, 관리자 모드의 PowerShell등에서 작업한다.
 * DISM을 이용하여 WSL설치전 WSL, VM 기능 활성화하기
-```powershell
+```console
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
@@ -24,7 +24,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 ### 3. WSL을 통해 Linux 설치하기
 * [Windows WSL 설치 문서](https://docs.microsoft.com/ko-kr/windows/wsl/install)를 참고하여 설치
-```powershell
+```console
 wsl --install -d Ubuntu
 ```
 

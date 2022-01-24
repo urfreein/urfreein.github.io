@@ -34,6 +34,7 @@ tags: [raspberrypi]
     * `sudo reboot`을 하여, 다시 리부팅하여 한글이 제대로 나오는 것을 확인한다.
 * zsh, oh-my-zsh 설치하기
     * 기본 쉘이 bash인데, mac 추세를 따라 zsh을 설치하고, prompt등 꾸미기 위해 oh-my-zsh을 함께 설치한다.
+
     ```bash
     # zsh installation
     $ sudo apt install zsh
@@ -42,14 +43,17 @@ tags: [raspberrypi]
     # 기본 쉘을 zsh로 변경한다.
     $ chsh -s /bin/zsh
     ```
-    * `vi ~/.zshrc` 하여 필요한 것들을 uncomment해준다.(별로 해줄건 없음) 아래 내용을 추가하거나 이미 있다면 테마를 agnoster로 바꿔준다.
+
+    * `~/.zshrc`{: .filepath}를 `vi`등을 이용해 필요한 것들에 대해 uncomment해준다.(별로 해줄건 없음) 아래 내용을 추가하거나 이미 있다면 테마를 agnoster로 바꿔준다.
     ```
     ZSH_THEME="agnoster"
     ```
+    {: .nolineno file="~/.zshrc" }
+
     * `source ~/.zshrc`하여 변경한 것을 적용하고 확인한다.
 * OS Update 하기
     * 설치된 OS에 포함된 패키지 목록을 갱신하고, 필요하면 업데이트 한다. 시간이 꾀 걸린다.
-    ```
+    ```bash
     $ sudo apt update && sudo apt upgrade
     ```
 * 그외 git, python이 없다면 설치하고, python용 Build HAT Library도 설치한다.
