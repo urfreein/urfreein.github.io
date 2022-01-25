@@ -56,11 +56,13 @@ tags: [raspberrypi]
 
     * `source ~/.zshrc`하여 변경한 것을 적용하고 확인한다.
 * OS Update 하기
+
     * 설치된 OS에 포함된 패키지 목록을 갱신하고, 필요하면 업데이트 한다. 시간이 꾀 걸린다.
     ```bash
     $ sudo apt update && sudo apt upgrade
     ```
 * 그외 git, python이 없다면 설치하고, python용 Build HAT Library도 설치한다.
+
 ```bash
 $ sudo apt git
 $ sudo apt python
@@ -92,11 +94,12 @@ $ sudo pip3 install buildhat
     * 참고로 본인은 Windows Terminal에서 Powershell을 이용한다.
     * Windows Terminal을 실행하고 아래와 같이 연결해본다.
     ```bash
-    > ssh pi@192.168.1.200 # Pi에 따로 user를 만들지 않았다면 default user로 pi가 있다.
+    $ ssh pi@192.168.1.200 # Pi에 따로 user를 만들지 않았다면 default user로 pi가 있다.
     or
-    > ssh pi@raspberrypi # Pi에서 hostname을 변경하지 않았다면, default는 raspberrypi다.
+    $ ssh pi@raspberrypi # Pi에서 hostname을 변경하지 않았다면, default는 raspberrypi다.
     ```
     * password를 입력하고 연결이 되는 것을 확인한다.
+    
 * Remote PC에서 VNC 연결해보기
     * [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)를 사용중인 Remote PC의 OS에 맞게 다운로드하여 설치한다. 본인은 windows 버전 설치.
     * 설치후, VNC Viewer를 실행하여 Host에 `pi@192.168.1.200` or `pi@raspberrypi` 를 입력하여 연결한다. IP만 쓰면 Windows 로그인 유저명으로 로그인 시도를 한다. IP만 쓰면 연결한 User ID를 물어볼 줄 알았다.
