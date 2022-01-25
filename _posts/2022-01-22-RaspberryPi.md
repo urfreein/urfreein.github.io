@@ -6,6 +6,7 @@ tags: [raspberrypi]
 ---
    
 ### 1. Raspberry Pi 준비
+
 * WiFi를 바로 이용하기 위해서는 Raspberry Pi 3 이상의 버전을 사용한다. 그 이전버전은 USB WiFi 모듈을 별도로 준비하거나, 유선을 이용해야 한다.
 * 가능하면 별도의 전원장치를 이용하는 것이 좋다. 5V-3A가 되어야 하는데, 스마트폰용으로 많이 나오는 것들은 전압은 5V를 만족하지만, 전류가 2A 이하이다.
   전류가 낮으면, OS설치후 전압이 낮다는 경고가 계속 뜬다.(그래서 결국 새로 전원장치를 새로 샀다.)
@@ -14,6 +15,7 @@ tags: [raspberrypi]
 * MicroSD Card가 필요하다. 8GB이상이 필요한데, 요즘은 가격이 싸니 용량이 큰 것으로 사서 쓰자. Classic Game Console로 쓸거라면 최소 128GB 정도는 되어야 왠만한 게임들을 다 넣을 수 있다. 난 그냥 예전에 쓰던 32GB를 쓰기로 했다.
 
 ### 2. Pi OS 설치
+
 1. OS Image를 쉽게 SD Card에 설치해주는 [Raspberry Pi Imager](https://www.raspberrypi.com/software/)를 내려받아 PC에 설치한다.
 2. Raspberry Pi Imager를 실행하고, SD Card를 SD Card Reader에 꽂아 연결하고, Imager에서 적당한 PI용 OS를 선택하여 설치한다. 난 기본적인 Linux OS가 필요해서, 목록의 가장 위에 있는 추천 OS를 설치했다. Debian Linux기반의 Rasbian이라 불리는 것이다. 이것외에 다른 여러가지 배포판의 Linux들이 있고, NAS용 OS나 고전 게임들을 위한 RetroPI나 미디어 서버를 위한 OS등 많이 준비되어 있으니 사용 목적에 맞는 것을 선택하여 설치한다.
 3. 몇 분간의 설치가 진행되고, 끝나면 SD Card를 뽑아서, 준비한 Raspberry Pi에 꽂는다. 본인은 Pi 4를 구하지 못했다. 반도체 수급 문제인지, 재고가 들어올려면 몇 달은 더 있어야 한단다. 예전에 사두었던 Pi 2, 3가 있었는데, WiFi때문에 Pi 3를 이용했다. OS설치나 기타 소프트웨어 설치는 Pi 4이든 큰 상관없으니 Pi 3에서 설치했던 기록을 남긴다.
@@ -24,6 +26,7 @@ tags: [raspberrypi]
 8. 여기까지하고 다음 단계로...
 
 ### 3. OS 설치후 할 일
+
 * 한글 깨짐 해결
     * OS설치후 Locale을 한국으로 설정하고 리부트를 하면 한글 폰트가 없어 깨져나온다. 왼쪽 위 상단 메뉴에서 터미널 아이콘 클릭하여 터미널을 실행하고, 아래와 같은 과정을 거쳐 한글 입력기 및 한글 폰트를 설치한다.
     ```bash
@@ -65,6 +68,7 @@ $ sudo pip3 install buildhat
 ```
 
 ### 4. Remote PC에서 작업하기
+
 * Pi에서 Static IP할당과 SSH, VNC 연결 준비를 해준다.
     * 기본설정-Raspberry Pi Configuration을 실행하고, interface tab에서 SSH, VNC를 Enable한다.
     * 또는, Terminal을 열어서, `sudo raspi-config` 명령으로 Text기반 툴을 실행하여 설정한다.
