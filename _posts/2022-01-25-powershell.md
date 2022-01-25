@@ -48,7 +48,7 @@ Set-PoshPrompt -Theme <theme_name>
 
 #### 2. Posh-git 설치하기
 
-* oh-my-posh에서 git 상태를 표시할 수 있게 해준다.(고 하는데 난 안된다.)
+* oh-my-posh에서 git 상태를 표시할 수 있게 해준다.
 ```powershell
 PS> Install-Module posh-git -Scope CurrentUser
 ```
@@ -59,6 +59,8 @@ PS> Install-Module posh-git -Scope CurrentUser
 Import-Module posh-git
 ```
 {: .nolineno file="$PROFILE"}
+
+* `Get-PoshThemes`를 통해 설치된 테마들을 보며 적당한 것을 선택하는데, git과 제대로 연동되는지 확인하기 위해서는 git으로 작업중인 폴더에서 실행해 보는 것이 좋다. `Get-PoshThemes`명령이 현재 폴더를 기준으로 보여주기 때문이다. 그리고, 여러 테마들중에서 어떤 것은 git 상태를 보여주지 않고, branch name만 표시해주는 것이 있고, 어떤 것은 git 상태를 여러형태로 제대로 표시해주는 것이 있는데, 구별하는 방법은 git으로 작업중인 폴더에서 특정 파일을 변경하여 git 상태에 변화를 준 후 실행해 보면 어떤 것은 여전히 branch이름만 표시되기도 하고, 어떤 것은 색깔이 변하고 특정 Icon들이 생기면서 상태 변화를 표시해주는 것이 있다. 이런 테마를 선택해서 사용하도록 한다.
 
 #### 3. Terminal Icon 설치하기
 
