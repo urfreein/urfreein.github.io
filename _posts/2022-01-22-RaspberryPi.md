@@ -48,7 +48,8 @@ tags: [raspberrypi]
     ```
 
     * `~/.zshrc`{: .filepath}를 `vi`등을 이용해 필요한 것들에 대해 uncomment해준다.(별로 해줄건 없음) 아래 내용을 추가하거나 이미 있다면 테마를 agnoster로 바꿔준다.
-    ```
+
+    ```zsh
     ZSH_THEME="agnoster"
     ```
     {: .nolineno file="~/.zshrc" }
