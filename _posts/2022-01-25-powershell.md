@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Powershell 7.x 를 써보자.
 categories: [Windows, Powershell]
 tags: [powershell pwsh oh-my-posh]     # TAG names should always be lowercase
