@@ -2,7 +2,7 @@
 layout: post
 title: "WSL2 설치하기"
 categories: [WSL2, installation]
-tags: [WSL, WSL2]
+tags: [wsl, wsl2]
 ---
 
 ### 1. Windows Version 확인하기

@@ -2,7 +2,7 @@
 layout: post
 title: Powershell 7.x 를 써보자.
 categories: [Windows, Powershell]
-tags: [powershell pwsh oh-my-posh]     # TAG names should always be lowercase
+tags: [powershell, oh-my-posh]     # TAG names should always be lowercase
 ---
 
 ## 1. Powershell 7.x 설치하기
