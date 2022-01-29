@@ -1,16 +1,10 @@
 ---
-
 layout: post
 categories: [Raspberrypi, Build-HAT, Lego]
 tags: [raspberrypi, buildhat, lego]
-
 ---
 
-
-
-### 1. Raspberry Pi 설정하기
-
-#### 1. Build HAT 사용준비
+### 1. Build HAT 사용준비
 
 * [Build HAT](https://www.raspberrypi.com/documentation/accessories/build-hat.html) 문서를 참고하여 준비하는데, 핵심은 Serial Port 설정이다.
 
@@ -22,16 +16,15 @@ tags: [raspberrypi, buildhat, lego]
 
 * 그 외에는 전용 Power Supply를 쓰면 Pi와 Lego Motor를 함께 구동하는데 충분한 전력이 공급된다.
 
-#### 2. Python 3, Build HAT library 준비하기
+### 2. Python 3, Build HAT library 준비하기
 
 * 기본적으로 Python 3가 Pi에는 설치되어 있다. 그걸 그대로 써도 되고, 혹은 업그레이드 정도만 하면 된다.
 
-* ```bash
+```bash
   $ sudo apt update 
   $ sudo apt install python3 idle3
-  ```
-
-Pi 에서 작업을 하고, IDE환경이 필요하면 idle3도 추가한다. Windows와 같은 Desktop PC가 있다면, SSH연결해서 원격으로 작업하는 것이 편하다.
+```
+Pi 에서 작업을 하고, IDE환경이 필요하면 idle3도 추가한다. Windows와 같은 Desktop PC가 있다면, SSH 연결해서 원격으로 작업하는 것이 편하다.
 
 * Build HAT Python Library를 설치한다.
 
@@ -41,7 +34,7 @@ Pi 에서 작업을 하고, IDE환경이 필요하면 idle3도 추가한다. Win
 
 와 같이 python library까지 설치하면 준비는 완료되었다.
 
-#### 3. Build HAT 테스트
+### 3. Build HAT 테스트
 
 * 아래와 같은 간단한 예제를 작성하여 실행해본다.
 
