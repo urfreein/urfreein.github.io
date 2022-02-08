@@ -3,6 +3,7 @@ layout: post
 title: 포스트에 수식표현하기
 categories: [KaTeX, LaTeX]
 tags: [katex]
+mathjax: true
 ---
 
 ### 1. KaTeX
