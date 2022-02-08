@@ -42,8 +42,8 @@ use_math: true
 
     * `head.html`{: .filepath} 수정하기
 
-    `_include`{: .filepath} 폴더의 `head.html`{: .filepath}의 `<head></head>`사이에 아래 내용을 추가한다. 그런데, 한가지 주의할 점이 이 블로그는 Jekyll Blog에 Chirpy Theme를 적용해서 `_include/head.html`{: .filepath}를 수정했는데, 다른 문서에는 `_layout/default.html`{: .filepath}를 같은 방법으로 수정하라고 나온다. 따라서, 자신의 Jekyll Blog의 커스터마이징 방법을 잘 알고 하자.
-
+    `_include`{: .filepath} 폴더의 `head.html`{: .filepath}의 `<head></head>`사이에 아래 내용을 추가한다. 
+    
     ```html
     <!-- MathJax -->
     {% if page.use_math %}
@@ -51,6 +51,9 @@ use_math: true
     {% endif %}
     ```
     {: .nolineno file="_includes/head.html" }
+
+    > 한가지 주의할 점이 이 블로그는 Jekyll Blog에 Chirpy Theme를 적용해서 `_include/head.html`{: .filepath}를 수정했는데, 다른 문서에는 `_layout/default.html`{: .filepath}를 같은 방법으로 수정하라고 나온다. 따라서, 자신의 Jekyll Blog의 커스터마이징 방법을 잘 알고 하자.
+    {: .prompt-note }
 
 * Markdown 으로 수식 표현 하기
 
@@ -79,7 +82,7 @@ $$
     x^2 + y^2 = z^2
 $$
 
-이렇게 표시되고,
+이렇게 표현되고,
 
 또는,
 
@@ -95,7 +98,10 @@ $$
 \\]
 
 
-이렇게 합니다.
+이렇게 표현됩니다.
+
+> LaTeX 문법과 정확히 일치하지 않는 경우도 있다고 합니다. 따라서, 잘 비교해보며 사용합시다.
+{: .prompt-note }
 
 ### 2. 참고 사이트
 
