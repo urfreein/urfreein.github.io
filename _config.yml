@@ -23,9 +23,7 @@ title: "Freein의 글마당"                          # the main title
 tagline: "배우고, 즐기는 것에 대한 기록"   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  raspberry pi, lego, jekyll, wsl, powershell, mathjax
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://urfreein.github.io'
@@ -175,8 +173,8 @@ jekyll-archives:
     category: /categories/:name/
 
 # MathJax Setting
-markdown: kramdown
-highlighter: rouge
-lsi: false
-except_separator: "\n\n"
-incremental: false
+# markdown: kramdown
+# highlighter: rouge
+# lsi: false
+# except_separator: "\n\n"
+# incremental: false
