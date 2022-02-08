@@ -16,6 +16,10 @@ tags: [docker]
 * 설치하고, tutorial을 진행하면 간단한 리눅스 컨테이너를 하나 만들고 실행하는 것 까지 해볼 수 있다.
 * Docker Desktop의 설정에서 필요한 것들이 이미 체크되어 있어서, 각종 설치 문서, 블로그에 나오는 설정을 따로 할 필요는 없었다.
 
+### 3. Docker 연습 해보기
+
+* 간단한 docker 명령
+
 
 [WSL2 Installation]:https://urfreein.github.io/posts/WSL2-Installation/
 [Docker Desktop Installer]:https://www.docker.com/products/docker-desktop
