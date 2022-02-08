@@ -17,16 +17,16 @@ tags: [wsl, wsl2]
 ### 2. WSL 설치전 준비
 
 * Windows Terminal 을 설치하여, 관리자 모드의 PowerShell등에서 작업한다.
-* DISM을 이용하여 WSL설치전 WSL, VM 기능 활성화하기
+* DISM을 이용하여 WSL설치전 WSL, VM 기능 활성화한 후에, reboot을 한번 진행한다.
 ```console
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
-* [WSL2 Linux Kernel Update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)를 설치해준다.
+* [WSL2 Linux Kernel Update]를 설치해준다.
 
 ### 3. WSL을 통해 Linux 설치하기
 
-* [Windows WSL 설치 문서](https://docs.microsoft.com/ko-kr/windows/wsl/install)를 참고하여 설치
+* [Windows WSL 설치 문서]를 참고하여 설치
 ```console
 wsl --install -d Ubuntu
 ```
@@ -37,3 +37,7 @@ wsl --install -d Ubuntu
 * git 설치
 * Bash를 zsh로 변경하고, oh-my-zsh 설치하여 프롬프트 변경하기 
 * ruby, jekyll 등 설치하기 
+
+
+[WSL2 Linux Kernel Update]:https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+[Windows WSL 설치 문서]:https://docs.microsoft.com/ko-kr/windows/wsl/install
