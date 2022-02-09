@@ -3,7 +3,7 @@ layout: post
 title: 포스트에 수식표현하기
 categories: [LaTeX, MathJax]
 tags: [mathjax]
-use_math: true
+math: true
 ---
 
 ### 1. MathJax 이용하기
