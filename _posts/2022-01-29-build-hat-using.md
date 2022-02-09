@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Raspberry Pi Build HAT 사용하기
-categories: [Raspberrypi, Build-HAT, Lego]
+categories: [Raspberrypi, Lego, Build-HAT]
 tags: [raspberrypi, buildhat, lego]
 ---
 
