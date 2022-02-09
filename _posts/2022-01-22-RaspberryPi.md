@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Raspberry Pi Build HAT을 위한 Raspberry Pi 준비하기"
-categories: [Raspberrypi, installation]
-tags: [raspberrypi]
+categories: [Raspberrypi]
+tags: [raspberrypi, installation]
 ---
    
 ### 1. Raspberry Pi 준비

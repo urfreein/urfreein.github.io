@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 제목
-date: YYYY-MM-DD HH:MM:SS +0900
+date: 2022-02-10 00:59:00 +0900
 categories: [Main-Category, Sub-Category]
 tags: [tag1, tag2]
 math: false

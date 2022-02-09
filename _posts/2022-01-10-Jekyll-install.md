@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Jekyll 설치와 사이트 만들기"
-categories: [jekyll, installation]
-tags: [jekyll]
+categories: [Github Pages, Jekyll]
+tags: [jekyll, installation]
 ---
 
 ### 1. Homebrew 이용하여 ruby Upgrade on the Mac
