@@ -47,13 +47,14 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
+# <meta name="google-site-verification" content="D8yAM_orRop_zinyV97XLTCGp41qzbs_CyP-cr8p6zU" />
+google_site_verification: D8yAM_orRop_zinyV97XLTCGp41qzbs_CyP-cr8p6zU              # fill in to your verification string
 
 # ↑ --------------------------
 
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: 'G-MYLXHWCBBX'                # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
