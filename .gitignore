@@ -21,7 +21,22 @@ package-lock.json
 !.vscode/settings.json
 !.vscode/extensions.json
 !.vscode/tasks.json
+.claude/
 
 # Misc
 _sass/vendors
 assets/js/dist
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor backups
+*.swp
+*~
+
+# Log files
+*.log
+
+# Generated analysis files
+GEMINI.md
