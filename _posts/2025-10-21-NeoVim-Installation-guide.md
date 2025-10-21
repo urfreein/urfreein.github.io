@@ -1,9 +1,6 @@
-
-## Neovim (nvim) 설치 방법 (Win/macOS/Linux)
-
 ---
 layout: post
-title: "Neovim(nvim) 설치 및 설정 가이드 (Windows/macOS/Linux)"
+title: "Neovim(nvim) 설치 가이드 (Windows/macOS/Linux)"
 date: 2025-10-21
 categories: [tutorial]
 tags: [neovim, editor, dev-environment, windows, macos, linux]
@@ -79,6 +76,7 @@ macOS에서는 패키지 관리자 `Homebrew`를 사용합니다.
 
 이 파일은 **`lazy.nvim` 플러그인 관리자**를 사용하여 `tokyonight` 테마, `lualine` 상태 표시줄, `nvim-tree` 파일 탐색기, 그리고 `LSP`, `Mason`, `nvim-cmp` 등의 개발 환경 플러그인을 설정합니다.
 
+{% raw %}
 ```lua
 -- 리더 키 설정 (모든 단축키의 시작점, <Space> 키로 지정)
 vim.g.mapleader = " "
@@ -208,3 +206,4 @@ require("lazy").setup(plugins, {})
 -- nvim에서 nvim의 커서모양으로 바뀌기 원하면 아랫줄을 삭제
 vim.opt.guicursor = ""
 ```
+{% endraw %}
