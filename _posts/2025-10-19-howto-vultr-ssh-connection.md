@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vultr VM에서 SSH 연결 설정"
+title: "Vultr VM 생성할 때, SSH 연결 설정"
 date: 2025-10-19
 categories: [tutorial]
 tags: [vultr, ssh, server, linux]
@@ -24,7 +24,7 @@ Vultr에서 SSH 키로 원하는 사용자 만들기 (Windows / macOS 공용 최
 * **Windows의 경우**  
   1. **PowerShell 실행**: Win 키 \+ X 키를 누른 후 '터미널' 또는 'Windows PowerShell'을 실행합니다.  
   2. **명령어 입력**: 아래 명령어를 입력하고 엔터를 누르세요.  
-     ```bash
+     ```powershell
      ssh-keygen -t ed25519
      ```
 
@@ -40,10 +40,10 @@ Vultr에서 SSH 키로 원하는 사용자 만들기 (Windows / macOS 공용 최
 
 ### 2. Vultr에 SSH 공개키 등록
 
-생성한 키 쌍 중, 서버에 등록할 \*\*공개키(id\_ed25519.pub)\*\*의 내용을 Vultr에 추가합니다.
+생성한 키 쌍 중, 서버에 등록할 **공개키(id_ed25519.pub)**의 내용을 Vultr에 추가합니다.
 
-1. 공개키 내용 복사  
-   각 OS에 맞는 터미널에서 아래 명령어를 입력하여 공개키 내용을 화면에 출력한 뒤, ssh-ed25519로 시작하는 텍스트 전체를 복사합니다.  
+1. **공개키 내용 복사**   
+   각 OS에 맞는 터미널에서 아래 명령어를 입력하여 공개키 내용을 화면에 출력한 뒤, `ssh-ed25519`로 시작하는 텍스트 전체를 복사합니다.  
    ```bash
    cat ~/.ssh/id_ed25519.pub
    ```
@@ -51,7 +51,7 @@ Vultr에서 SSH 키로 원하는 사용자 만들기 (Windows / macOS 공용 최
 2. **Vultr에 SSH Key 추가**  
    * [Vultr 웹사이트](https://www.google.com/search?q=https://my.vultr.com/)에 로그인 후, 왼쪽 메뉴에서 **Products**를 클릭한 후 **Orchestration** 섹션의 **SSH Keys**를 선택합니다.  
    * 오른쪽 위의 **Add SSH Key** 버튼을 클릭합니다.  
-   * **SSH Key Name**: My-PC처럼 알아보기 쉬운 이름을 입력합니다.  
+   * **SSH Key Name**: `My-PC`처럼 알아보기 쉬운 이름을 입력합니다.  
    * **SSH Key**: 복사한 공개키 내용을 붙여넣습니다.  
    * **Add SSH Key** 버튼을 눌러 저장합니다.
 
@@ -64,7 +64,7 @@ Vultr에서 SSH 키로 원하는 사용자 만들기 (Windows / macOS 공용 최
 2. **새로운 Startup Script 추가**  
    * 오른쪽 위의 **Add Startup Script** 버튼을 클릭합니다.  
    * **Type**: **Boot**를 선택합니다.  
-   * **Name**: Create-My-User 처럼 스크립트 역할을 알 수 있는 이름을 입력합니다.  
+   * **Name**: `Create-My-User` 처럼 스크립트 역할을 알 수 있는 이름을 입력합니다.  
    * **Script**: 아래 스크립트를 붙여넣습니다. **myuser 부분만 원하는 사용자 이름으로 직접 수정하세요.**  
      ```bash
      #!/bin/bash
@@ -92,12 +92,12 @@ Vultr에서 SSH 키로 원하는 사용자 만들기 (Windows / macOS 공용 최
 사전 준비가 끝났습니다. 이제 새로운 서버를 만들면서 준비된 SSH 키와 스크립트를 선택합니다.
 
 1. **서버 배포 페이지로 이동**하여 원하는 OS, 위치, 플랜을 선택합니다.  
-2. SSH Keys 섹션에서 키 선택  
+2. **SSH Keys** 섹션에서 키 선택  
    페이지 중간의 SSH Keys 섹션에서 1단계에서 등록한 내 PC의 SSH 키를 체크합니다.  
-3. Startup Script 섹션에서 스크립트 선택  
-   페이지를 더 내려 Additional Features 섹션에서 Startup Script를 찾고, 1단계에서 등록한 Create-My-User 스크립트를 선택합니다.  
+3. **Startup Script** 섹션에서 스크립트 선택  
+   페이지를 더 내려 **Additional Features** 섹션에서 **Startup Script**를 찾고, 1단계에서 등록한 `Create-My-User` 스크립트를 선택합니다.  
 4. 서버 배포  
-   모든 설정을 확인하고 Deploy Now 버튼을 눌러 서버 생성을 시작합니다.
+   모든 설정을 확인하고 **Deploy Now** 버튼을 눌러 서버 생성을 시작합니다.
 
 ## 3단계: 접속 및 최종 보안 설정
 
@@ -114,7 +114,7 @@ ssh myuser@서버IP주소
 
 ### 2. 관리자 권한(sudo) 확인
 
-접속 후, sudo 명령이 잘 동작하는지 확인합니다. Startup Script가 비밀번호 없는 sudo를 설정했으므로, 아래 명령어를 실행했을 때 비밀번호를 묻지 않고 바로 실행되어야 합니다.
+접속 후, `sudo` 명령이 잘 동작하는지 확인합니다. **Startup Script**가 비밀번호 없는 `sudo`를 설정했으므로, 아래 명령어를 실행했을 때 비밀번호를 묻지 않고 바로 실행되어야 합니다.
 
 ```bash
 sudo apt update
@@ -122,7 +122,7 @@ sudo apt update
 
 ### 3. (권장) Root 로그인 비활성화
 
-새 사용자로 접속 및 sudo 사용이 완벽하게 동작하는 것을 확인했다면, 보안을 위해 root 계정의 직접적인 SSH 접속을 차단합니다.
+새 사용자로 접속 및 `sudo` 사용이 완벽하게 동작하는 것을 확인했다면, 보안을 위해 `root` 계정의 직접적인 SSH 접속을 차단합니다.
 
 1. **SSH 설정 파일 열기**  
    ```bash
@@ -130,7 +130,7 @@ sudo apt update
    ```
 
 2. 설정 변경  
-   파일 내용 중 PermrintRootLogin으로 시작하는 줄을 찾아 아래와 같이 no로 수정합니다.  
+   파일 내용 중 `PermitRootLogin`으로 시작하는 줄을 찾아 아래와 같이 `no`로 수정합니다.  
    ```ini
    PermitRootLogin no
    ```
@@ -141,4 +141,4 @@ sudo apt update
    sudo systemctl restart sshd
    ```
 
-이제 모든 설정이 완료되었습니다. 서버는 내가 만든 사용자를 통해서만 안전하게 접속할 수 있습니다.
+이제 모든 설정이 완료되었습니다. 서버는 내가 만든 사용자를 통해서만 안전하게 접속할 수 있습니다. Vultr의 **view console**을 통해, `root` 유저로 로그인 할 수 있습니다. 초기 비밀번호는 Vultr의 웹 콘솔 화면에 노출되어 있으므로, 바꾸시기 바랍니다.

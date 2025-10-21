@@ -18,7 +18,7 @@ excerpt_separator: <!--more-->
 
 Windows 10/11의 기본 패키지 관리자인 `winget`을 사용하여 `Neovim`을 설치하는 것이 가장 권장됩니다.
 
-1.  **Windows Terminal** 또는 \*\*명령 프롬프트(CMD)\*\*를 엽니다.
+1.  **Windows Terminal** 또는 **명령 프롬프트\(CMD\)**를 엽니다.
 
 2.  `winget` 명령어를 사용하여 `Neovim`을 설치합니다.
 
@@ -26,7 +26,8 @@ Windows 10/11의 기본 패키지 관리자인 `winget`을 사용하여 `Neovim`
     winget install Neovim.Neovim
     ```
 
-    *Note: `winget`은 대소문자를 구분하지 않지만, 정확한 패키지 ID는 `Neovim.Neovim`입니다.*
+    > `winget`은 대소문자를 구분하지 않지만, 정확한 패키지 ID는 `Neovim.Neovim`입니다.*
+    {: .prompt-info }
 
 ### 2\. macOS (Homebrew 사용)
 
@@ -50,7 +51,7 @@ macOS에서는 패키지 관리자 `Homebrew`를 사용합니다.
     sudo apt update
     sudo apt install neovim
     ```
-  * \*\*Fedora/CentOS (DNF):
+  * **Fedora/CentOS (DNF):**
     ```bash
     sudo dnf install neovim
     ```
@@ -59,7 +60,7 @@ macOS에서는 패키지 관리자 `Homebrew`를 사용합니다.
 
 ## 2. `init.lua` 설정 파일 위치
 
-`Neovim`은 설정을 사용자 홈 디렉터리 내의 특정 폴더에서 관리합니다. 제공해주신 `init.lua` 파일은 다음 경로에 위치해야 합니다.
+`Neovim`은 설정을 사용자 홈 디렉터리 내의 특정 폴더에서 관리합니다. `init.lua` 파일은 다음 경로에 위치해야 합니다. `vim`과의 호환성을 위해 `init.vim`을 사용할 수도 있습니다. 이때는 **vimscript**를 이용해서 작성해야 합니다. 다만, 최근 `Neovim`의 권장 방식은 `init.lua`를 사용하는 것이므로, 여기서는 `init.lua`만을 다룹니다.
 
 | 운영체제 | 설정 디렉터리 | `init.lua` 전체 경로 (예시) |
 | :--- | :--- | :--- |

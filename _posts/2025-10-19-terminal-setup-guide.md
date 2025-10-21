@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "터미널 설치 및 설정 가이드"
+title: "터미널 설정 가이드"
 date: 2025-10-19
 categories: [tutorial]
 tags: [terminal, dev-environment, zsh, powershell, eza]
 excerpt_separator: <!--more-->
 ---
-
-# 터미널 설치 및 설정 가이드 (mac/Linux/Windows)
 
 ## 1. 개요
 이 가이드는 zsh(mac/Linux)와 PowerShell(Windows) 환경에서
@@ -54,11 +52,84 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```bash
 mkdir -p ~/.config
 nano ~/.config/eza_colors.sh
-# (앞서 제공한 EXA_COLORS + alias 설정 붙여넣기)
+# (아래 제공한 EXA_COLORS + alias 설정 붙여넣기)
+```
+
+```bash
+#!/bin/bash
+# =================================================
+# eza colorls-style Solarized Dark complete config
+# =================================================
+
+# Solarized Dark 톤 EXA_COLORS
+export EXA_COLORS="\
+di=38;2;38;139;210:\
+ln=38;2;211;54;130:\
+ex=38;2;133;153;0:\
+so=38;2;203;75;22:\
+pi=38;2;203;75;22:\
+bd=38;2;108;113;196:\
+cd=38;2;108;113;196:\
+fi=38;2;131;148;150:\
+da=38;2;101;123;131:\
+uu=38;2;108;113;196:\
+gu=38;2;108;113;196:\
+*.rb=38;2;220;50;47:\
+*.py=38;2;38;139;210:\
+*.js=38;2;211;54;130:\
+*.ts=38;2;211;54;130:\
+*.json=38;2;181;137;0:\
+*.yml=38;2;133;153;0:\
+*.yaml=38;2;133;153;0:\
+*.md=38;2;133;153;0:\
+*.txt=38;2;131;148;150:\
+*.html=38;2;38;139;210:\
+*.css=38;2;42;161;152:\
+*.scss=38;2;211;54;130:\
+*.sh=38;2;133;153;0:\
+*.zsh=38;2;133;153;0:\
+*.c=38;2;38;139;210:\
+*.cpp=38;2;38;139;210:\
+*.h=38;2;38;139;210:\
+*.hpp=38;2;38;139;210:\
+*.rs=38;2;211;54;130:\
+*.go=38;2;133;153;0:\
+*.php=38;2;38;139;210:\
+*.java=38;2;38;139;210:\
+*.kt=38;2;38;139;210:\
+*.sql=38;2;38;139;210:\
+*.xml=38;2;38;139;210:\
+*.toml=38;2;133;153;0:\
+*.ini=38;2;133;153;0:\
+*.log=38;2;131;148;150:\
+*.cfg=38;2;133;153;0:\
+*.zip=38;2;203;75;22:\
+*.tar=38;2;203;75;22:\
+*.gz=38;2;203;75;22:\
+*.bz2=38;2;203;75;22:\
+*.xz=38;2;203;75;22:\
+*.dmg=38;2;203;75;22:\
+*.iso=38;2;203;75;22:\
+*.pdf=38;2;211;54;130:\
+*.mp3=38;2;133;153;0:\
+*.wav=38;2;133;153;0:\
+*.mp4=38;2;133;153;0:\
+*.mkv=38;2;133;153;0:\
+*.mov=38;2;133;153;0:\
+*.png=38;2;42;161;152:\
+*.jpg=38;2;42;161;152:\
+*.jpeg=38;2;42;161;152:\
+*.gif=38;2;42;161;152"
+
+alias ls='eza --icons -F --git --group-directories-first'          # ls를 eza로 대체 (아이콘, git 상태 표시)
+alias l='eza -l --icons --git --group-directories-first'        # 자세히 보기 (한 줄에 하나씩)
+alias ll='eza -lh --icons --git --group-directories-first'      # 자세히 보기 + 파일 크기 보기 좋게
+alias la='eza -lha --icons --git --group-directories-first'     # 숨김 파일 포함
+alias tree='eza --tree'               # 트리 형태로 보기
 ```
 - `.zshrc`에서 불러오기
 ```bash
-[ -f ~/.config/eza_colors.sh ] && source ~/.config/eza_colors.sh
+ `[ -f ~/.config/eza_colors.sh ] && source ~/.config/eza_colors.sh
 ```
 
 ### 2.6 fzf 설정
@@ -119,7 +190,8 @@ Set-PoshPrompt -Theme Paradox  # 또는 원하는 테마
 ```
 
 ### 3.4 필수 CLI 설치
-- scoop 또는 winget 이용 가능
+- scoop 또는 winget 이용 가능  
+{% raw %}
 ```powershell
 # scoop 설치 (권장)
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -128,6 +200,7 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 # 패키지 설치
 scoop install git eza bat fzf ripgrep fd delta neovim
 ```
+{% endraw %}
 
 ### 3.5 alias 설정
 - `~\Documents\PowerShell\profile.ps1`에 eza alias 추가
