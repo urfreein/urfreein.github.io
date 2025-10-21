@@ -129,7 +129,7 @@ alias tree='eza --tree'               # 트리 형태로 보기
 ```
 - `.zshrc`에서 불러오기
 ```bash
- `[ -f ~/.config/eza_colors.sh ] && source ~/.config/eza_colors.sh
+[ -f ~/.config/eza_colors.sh ] && source ~/.config/eza_colors.sh
 ```
 
 ### 2.6 fzf 설정
