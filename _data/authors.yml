@@ -1,0 +1,7 @@
+# The authors of the blog.
+#
+# The `id` is used in the front matter of posts to assign an author.
+
+freein:
+  name: freein
+  url: https://github.com/urfreein
