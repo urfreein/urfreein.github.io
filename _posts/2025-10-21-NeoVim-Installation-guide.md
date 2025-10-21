@@ -67,9 +67,8 @@ macOS에서는 패키지 관리자 `Homebrew`를 사용합니다.
 | **Linux/macOS** | `~/.config/nvim/` | `~/.config/nvim/init.lua` |
 | **Windows** | `%USERPROFILE%\AppData\Local\nvim\` | `C:\Users\Username\AppData\Local\nvim\init.lua` |
 
-### 💡 디렉터리 생성
-
-만약 해당 설정 디렉터리(`nvim` 폴더)가 없다면, 직접 생성해 주어야 합니다.
+> 만약 해당 설정 디렉터리(`nvim` 폴더)가 없다면, 직접 생성해 주어야 합니다.
+{: .prompt-warning }
 
 -----
 
