@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 
 # VS Code 기준 Markdown(.md) 최소 설치 및 추천 확장 가이드
 
-## 1️⃣ 최소 설치
+## 1️. 최소 설치
 VS Code 기본 기능만으로도 Markdown 파일 열기, 편집, 코드 블록 미리보기 가능.
 <!--more-->
 
@@ -21,11 +21,12 @@ VS Code 기본 기능만으로도 Markdown 파일 열기, 편집, 코드 블록 
   - 편집과 미리보기 동시에 보기: `Ctrl+K V` / `Cmd+K V`
 - 코드 블록 기본 하이라이팅 지원
 
-> ✅ 최소 설치만으로 Markdown 읽기/편집과 코드 블록 시각화 가능
+> 최소 설치만으로 Markdown 읽기/편집과 코드 블록 시각화 가능
+{: .prompt-info }
 
 ---
 
-## 2️⃣ 권장 확장 (선택)
+## 2️. 권장 확장 (선택)
 필요한 기능에 따라 설치
 
 ### 2.1 Markdown All in One
@@ -44,14 +45,14 @@ VS Code 기본 기능만으로도 Markdown 파일 열기, 편집, 코드 블록 
 
 ---
 
-## 3️⃣ 사용 팁
+## 3️. 사용 팁
 - 기본 미리보기만으로 GitHub 스타일 Markdown 확인 가능
 - 필요 시 Markdown Preview Enhanced에서 CSS 커스터마이징 가능
 - 코드 블록은 Fenced code block(````bash`) 그대로 하이라이팅 가능
 
 ---
 
-## 4️⃣ 추천 설정 조합
+## 4️. 추천 설정 조합
 | 목적 | 설치/설정 |
 |------|------------|
 | 최소 편집/보기 | VS Code 기본 기능만 사용 |
