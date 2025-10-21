@@ -69,7 +69,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 ### 2. 서버에서 테마 활성화
 
-`\~/.zshrc` 파일을 열어 `ZSH_THEME` 설정을 Powerlevel10k로 변경합니다.
+`~/.zshrc` 파일을 열어 `ZSH_THEME` 설정을 Powerlevel10k로 변경합니다.
 
 1. **.zshrc 파일 열기**  
    ```bash
