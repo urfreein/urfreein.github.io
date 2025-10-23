@@ -38,11 +38,11 @@ social:
   email: freein@gmail.com # 실제 이메일 주소로 변경하세요
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/youkes # Twitter 프로필 주소로 변경하세요
+    # - https://twitter.com/youkes # Twitter 프로필 주소로 변경하세요
     - https://github.com/urfreein # GitHub 프로필 주소로 변경하세요
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.facebook.com/freein71
+    - https://www.linkedin.com/in/urfreein
 
 # Site Verification Settings
 webmaster_verifications:
