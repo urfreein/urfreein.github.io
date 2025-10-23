@@ -28,8 +28,8 @@ url: "https://urfreein.github.io"
 github:
   username: urfreein # GitHub 사용자 이름으로 변경하세요
 
-twitter:
-  username: youkes # Twitter 사용자 이름으로 변경하세요
+# twitter:
+#   username: youkes # Twitter 사용자 이름으로 변경하세요
 
 social:
   # Change to your full name.
@@ -52,7 +52,7 @@ webmaster_verifications:
   yandex: # fill in your Yandex verification code
   baidu: # fill in your Baidu verification code
   facebook: # fill in your Facebook verification code
-  naver: 91d525ef5ff8ddde7c2923f69f8b0c0c4c787b38
+  naver: 91d525ef5ff8ddde7c2923f69f8b0c0c4c787b38 # 네이버 웹마스터 도구 인증 코드 입력
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
