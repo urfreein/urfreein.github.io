@@ -39,7 +39,7 @@ find . -name "*.log"
 
 ### 3\. 디렉토리만 리스팅
 
-**사용 예시**
+**사용 예시(/bin/ls)**
 
 ```bash
 ls -F | grep /
@@ -49,6 +49,22 @@ ls -F | grep /
 
   - `ls -F`: 파일 끝에 분류 표시자(`/` 등)를 추가.
   - `grep /`: 출력 결과에서 `/` 문자가 포함된 라인만 필터링.
+
+**사용 예시 (eza 사용 시)**
+
+```bash
+eza --only-dirs
+eza -D
+alias ls='eza -F --icons --git --group-directories-first'
+ls --only-dirs
+ls -D
+```
+
+**주요 옵션 (eza 기준)**
+
+  - `--only-dirs` 또는 `-D`: 파일은 제외하고 디렉토리만 출력.
+  - `-a`: 숨김 디렉토리 포함.
+  - `-l`: 상세 리스트 형식으로 출력 (파일 용량, 권한 등).
 
 ### 4\. 펌웨어(UEFI/BIOS)로 재부팅
 
