@@ -14,7 +14,7 @@ pin: false
 서버 설치를 시작하기 전에, 아래 추천인 링크를 통해 Vultr에 가입하시면 **2주간 $100가 Deposit**됩니다. Vultr에서 **$100면 왠만한 모든 것은 다 테스트** 해볼 수 있습니다. 특히, Custom ISO를 Upload하기 위해 AWS의 S3와 같은 스토리지 서비스를 이용하면 편리한데, 추천인 코드 사용하여 회원 가입후 편하게 이런 서비스 이용해서 서버 설치하면 비용을 많이 절약할 수 있습니다. 꼭, 아래의 추천인 코드가 아니어도 웹상에 수없이 널려있고, 혹은 먼저 가입한 지인의 추천인 코드를 사용해서라도 **반드시 추천인 코드를 사용하여 가입**하시기 바랍니다.
 
 > **Vultr 추천인 링크:**
-> [**`https://www.vultr.com/?ref=9610163`**](https://www.google.com/search?q=%5Bhttps://www.vultr.com/%3Fref%3D9610163%5D\(https://www.vultr.com/%3Fref%3D9610163\))
+> [**`https://www.vultr.com/?ref=9610163`**](https://www.vultr.com/?ref=9610163)
 {: .porompt-info }
 
 -----
