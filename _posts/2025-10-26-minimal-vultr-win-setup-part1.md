@@ -15,7 +15,7 @@ pin: false
 
 > **Vultr 추천인 링크:**
 > [**`https://www.vultr.com/?ref=9610163`**](https://www.vultr.com/?ref=9610163)
-{: .porompt-info }
+{: .prompt-info }
 
 -----
 

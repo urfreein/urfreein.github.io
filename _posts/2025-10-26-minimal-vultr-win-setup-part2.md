@@ -12,13 +12,13 @@ pin: false
 
 -----
 
-#### Vultr 추천인 코드 사용하기**
+#### **Vultr 추천인 코드 사용하기**
 
 서버 설치 및 운영을 시작하기 전에, 아래 추천인 링크를 통해 Vultr에 가입하시면 2주간 $100가 Deposit됩니다. 물론 2주가 지나면 남은 무료 Deposit은 사라집니다.
 
-> **Vultr 추천인 링크:**
+> **Vultr 추천인 링크:** 
 > [**`https://www.vultr.com/?ref=9610163`**](https://www.vultr.com/?ref=9610163)
-{: .porompt-info }
+{: .prompt-info }
 
 -----
 
