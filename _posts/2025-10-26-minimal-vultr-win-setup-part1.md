@@ -109,6 +109,11 @@ ISO 파일은 웹 검색을 하여 찾아보아요~
 - Backup Image가 하나라도 만들어지면, 이제 배포할 때, ISO선택하는 과정에서 Backup 탭을 선택하여 Backup된 Image를 선택합니다.
 - 배포를 누르면, 거의 즉시 Backup Image를 통해 똑같은 Windows가 바로 만들어집니다.
 - 맨 처음 만든 Windows의 **Status**창으로 이동하여, **Backup Service**를 `Disable`합니다.
+- 혹은 **Snapshot**을 이용할 수도 있습니다.
+- 만들어진 VM의 Status화면에서 **Snapshot**탭으로 가서, `Take a snapshot`을 누릅니다.
+- 몇 분후에 Snapshot이 만들어지면, 배포할 때, ISO선택이 아닌 Snapshot선택으로 가서 만들어진 Snapshot을 선택합니다.
+- 이제 귀찮고 시간걸리는 윈도우즈 설치 과정없이, 바로 윈도우즈가 배포됩니다.
+- Snapshot Image는 $0.05/gb 월간 비용입니다. 굉장히 저렴하니 하나쯤 남겨두면 재설치할 때, 편리합니다.
 
 이제 가장 저렴한 비용으로 Vultr 클라우드에 Windows 10 Pro 서버 구축을 완료했으며, **View Console**을 통해 편리하게 서버를 운영할 수 있습니다\!  
 이후, 리소스를 더욱 최소화하여 자동 프로그램을 운영하기 위한 설정은 다음 게시물에서 설명합니다. 필요하신 분만 보세요.
