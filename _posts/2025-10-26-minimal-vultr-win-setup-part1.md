@@ -101,18 +101,18 @@ ISO 파일은 웹 검색을 하여 찾아보아요~
 > Windows의 필요한 초기 설정(업데이트, 시간대 등)을 Console을 통해 완료합니다.
 {: .prompt-info }
 
-**추가 팁 :** 같은 설정의 윈도우 여러개를 배포할 경우
-- 위와 같은 VM을 여러개 만들고, 동일한 설정을 해야 한다면 맨 처음 하나를 **Backup Service**를 `Enable`합니다.
-- 그리고, Windows 설치 및 필요한 설정을 합니다. 필요한 Application도 모두 설치합니다.
-- Backup Image가 하나 만들어질때까지 기다립니다. 보통 한시간마다 만들어지는 듯 합니다.
-- Backup Image가 하나라도 만들어지면, 이제 배포할 때, ISO선택하는 과정에서 Backup 탭을 선택하여 Backup된 Image를 선택합니다.
-- 배포를 누르면, 거의 즉시 Backup Image를 통해 똑같은 Windows가 바로 만들어집니다.
-- 맨 처음 만든 Windows의 **Status**창으로 이동하여, **Backup Service**를 `Disable`합니다.
-- 혹은 **Snapshot**을 이용할 수도 있습니다.
-- 만들어진 VM의 Status화면에서 **Snapshot**탭으로 가서, `Take a snapshot`을 누릅니다.
-- 몇 분후에 Snapshot이 만들어지면, 배포할 때, ISO선택이 아닌 Snapshot선택으로 가서 만들어진 Snapshot을 선택합니다.
-- 이제 귀찮고 시간걸리는 윈도우즈 설치 과정없이, 바로 윈도우즈가 배포됩니다.
-- Snapshot Image는 $0.05/GB 월간 비용입니다. 위와 같은 Lite버전의 Windows의 Snapshot은 약 7GB이므로, 월 $0.35 내외입니다.
+#### **추가 팁 :** 같은 설정의 윈도우 여러개를 배포할 경우
+- Windows 설치후 필요한 설정을 합니다. 필요한 Application도 모두 설치합니다.
+- 그리고, **Snapshot**을 이용하도록 합니다.
+- 배포한 VM의 Overview 화면이나, **Orchestration**메뉴에서 **Snapshot**을 선택합니다.
+- `Take a snapshot`을 누릅니다.
+- 몇 분후에 Snapshot이 만들어지면, 배포할 때, ISO 탭이 아닌 Snapshot 탭으로 가서 만들어진 Snapshot을 선택합니다.
+- 이제 귀찮고 시간걸리는 윈도우즈 설치 과정없이, 바로 똑같은 윈도우즈가 배포됩니다.
+- Snapshot Image는 $0.05/GB/month입니다. 위와 같은 Lite버전의 Windows의 Snapshot은 약 7GB이므로, 월 $0.35 내외입니다.
+- 월 유지 비용이 저렴하므로, 혹여 재설치나 추가 배포를 위해 남겨 놓는 것도 좋습니다.
+- 또는 삭제후 필요할 때, 언제든 Snapshot을 만들어 배포하면 됩니다.
+- 참고로, Snapshot이 만들어지는 동안은 VM을 쓸 수 없으니 주의하시기 바랍니다.
+- Snapshot은 똑같은 상태의 이미지가 만들어지는 것이므로, Static IP를 지정한 경우에는 주의하시기 바랍니다. 꼭, DHCP Client Service를 이용하시기 바랍니다. 그렇지않으면, 배포후 기존 VM과 IP 충돌이 일어날 수 있습니다.
 
 이제 가장 저렴한 비용으로 Vultr 클라우드에 Windows 10 Pro 서버 구축을 완료했으며, **View Console**을 통해 편리하게 서버를 운영할 수 있습니다\!  
 이후, 리소스를 더욱 최소화하여 자동 프로그램을 운영하기 위한 설정은 다음 게시물에서 설명합니다. 필요하신 분만 보세요.
