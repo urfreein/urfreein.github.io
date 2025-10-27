@@ -1,5 +1,5 @@
 ---
-title: "Vultr Minimal Windows 설치 후속 최적화"
+title: "Vultr Minimal Windows 설치 Part 2"
 date: 2025-10-26 17:25:30 +0900
 categories: [Cloud, Vultr, Windows]
 tags: [Vultr Windows, Minimal setup, Windows 10, 최적화, 자동거래, 리소스 절약]
