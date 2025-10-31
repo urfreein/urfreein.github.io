@@ -69,7 +69,7 @@ fi
 
 -----
 
-## 🖥️ 3. Windows PowerShell: `iwr` (Invoke-WebRequest)을 사용한 다운로드
+## 3. Windows PowerShell: `iwr` (Invoke-WebRequest)을 사용한 다운로드
 
 Windows 환경, 특히 PowerShell에서는 `Invoke-WebRequest` cmdlet (별칭: **`iwr`**)을 사용합니다.
 
