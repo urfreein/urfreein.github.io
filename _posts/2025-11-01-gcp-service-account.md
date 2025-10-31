@@ -1,6 +1,6 @@
 ---
 title: "Google Sheets API 연동을 위한 서비스 계정 생성 및 키 발급 가이드"
-date: 2025-11-01 12:21:44 +0900
+date: 2025-11-01 00:21:44 +0900
 categories: [Google Cloud, API, Google Sheets]
 tags: [GCP, 서비스계정, GoogleSheetsAPI, IAM, 자동화]
 excerpt: "외부 애플리케이션이 Google 스프레드시트 데이터에 안전하게 접근하고 읽기/쓰기 작업을 수행할 수 있도록, Google Cloud Platform에서 서비스 계정을 생성하고 키를 발급받는 실용적인 방법을 안내합니다."
