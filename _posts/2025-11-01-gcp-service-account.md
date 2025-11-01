@@ -6,8 +6,6 @@ tags: [GCP, 서비스계정, GoogleSheetsAPI, IAM, 자동화]
 excerpt: "외부 애플리케이션이 Google 스프레드시트 데이터에 안전하게 접근하고 읽기/쓰기 작업을 수행할 수 있도록, Google Cloud Platform에서 서비스 계정을 생성하고 키를 발급받는 실용적인 방법을 안내합니다."
 ---
 
-# Google Sheets API 연동을 위한 서비스 계정 생성 및 키 발급 가이드
-
 Google Cloud Platform(GCP)의 **서비스 계정(Service Account)**은 외부 시스템이나 자동화 스크립트가 Google 스프레드시트(Google Sheets)와 같은 Google 서비스에 접근하도록 인증하는 핵심 요소입니다. 이 가이드에서는 스프레드시트 데이터 연동을 목적으로 서비스 계정을 설정하는 과정을 상세히 다룹니다.
 
 ---
