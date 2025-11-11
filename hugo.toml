@@ -1,4 +1,10 @@
 baseURL = 'https://urfreein.github.io/'
 languageCode = 'ko-KR'
 title = 'My New Hugo Site'
-theme = "hugo-theme-chirpy"
+# 모듈 설정 (매우 중요)
+[module]
+  [[module.imports]]
+    path = "github.com/geekifan/hugo-theme-chirpy"
+
+# 테마 설정 (Chirpy 모듈이 자동으로 테마를 인식함)
+theme = "hugo-theme-chirpy" # 명시적으로 지정
