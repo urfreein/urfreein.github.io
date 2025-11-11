@@ -31,6 +31,12 @@ jobs:
           hugo-version: 'latest'
           extended: true 
           compiler: "dart-sass" # Sass 컴파일러 지정
+      
+      - name: Clean Hugo Cache and Modules
+        run: |
+          rm -rf ~/.cache/hugo_cache
+          hugo mod tidy
+          hugo mod vendor # 필요한 모든 모듈을 로컬 폴더로 복사
 
       - name: Build Hugo
         run: hugo --minify
