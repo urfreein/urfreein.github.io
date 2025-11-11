@@ -1,10 +1,100 @@
-baseURL = 'https://urfreein.github.io/'
-languageCode = 'ko-KR'
-title = 'My New Hugo Site'
-# 모듈 설정 (매우 중요)
+# ==================================
+# 기본 설정 (Base Configuration)
+# ==================================
+baseURL = 'https://urfreein.github.io/' # 👈 사용자님의 URL
+languageCode = 'ko-KR'                 # 👈 한국어 설정
+title = 'freein''s DevLog'             # 👈 사용자님의 블로그 제목
+enableGitInfo = true                   # Git 정보를 사용 (빌드 날짜 등에 유용)
+
+# ==================================
+# 테마 및 모듈 설정 (Theme & Module)
+# ==================================
+theme = "hugo-theme-chirpy"
+
 [module]
   [[module.imports]]
     path = "github.com/geekifan/hugo-theme-chirpy"
 
-# 테마 설정 (Chirpy 모듈이 자동으로 테마를 인식함)
-theme = "hugo-theme-chirpy" # 명시적으로 지정
+# ==================================
+# 언어 및 빌드 설정 (Language & Build)
+# ==================================
+defaultContentLanguage = "ko"          # 기본 콘텐츠 언어 설정 (ko로 변경)
+defaultContentLanguageInSubdir = false 
+hasCJKLanguage = true                  # CJK (한국어) 지원 활성화
+
+# ==================================
+# 페이지네이션 및 출력 (Pagination & Output)
+# ==================================
+[pagination]
+  pagerSize = 5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]       # Chirpy 검색 기능을 위한 JSON 출력
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# ==================================
+# [params] 섹션: 테마의 모든 기능 설정
+# ==================================
+[params]
+  # --- 기본 정보 ---
+  author = "urfreein" # 👈 사용자 이름으로 수정
+  description = "Hugo Chirpy 테마를 사용한 개인 기술 블로그입니다." # 👈 블로그 설명
+  keywords = ["hugo", "chirpy", "blog", "github pages", "tech"]
+  
+  # --- UI 설정 ---
+  mainSections = ["posts"] # 홈에 표시할 콘텐츠 섹션
+  paginateWindow = 1 # 페이지네이션 버튼 수
+  dateFormat = "2006-01-02" # 날짜 형식
+  
+  # --- 저작권/시간 정보 ---
+  copyright = "© 2025 urfreein. Licensed under CC BY 4.0." # 👈 수정
+  lastmodEnabled = true # 포스트 수정 시간 표시 활성화
+  
+  # --- 외관/스타일 ---
+  palette = "auto" # 기본 테마 ('light' 또는 'dark' 또는 'auto')
+  
+  # --- 검색 설정 (Lunr.js 사용) ---
+  [params.search]
+    provider = "lunr" # Lunr 검색 엔진 사용
+    indexing = true
+  
+  # --- 소셜 링크 ---
+  [params.social]
+    github = "urfreein" # 👈 GitHub 아이디로 수정
+    twitter = ""
+    # email = "your@email.com" # 이메일 주소 활성화 시 주석 해제
+  
+  # --- 댓글 시스템 (Giscus 예시) ---
+  [params.comments]
+    provider = "giscus"
+    
+    [params.comments.giscus]
+      repo = "urfreein/hugo-blog-source" # 👈 레포지토리 정보로 수정
+      repoId = "R_kg..."
+      category = "General"
+      categoryId = "DIC_kw..."
+      mapping = "pathname"
+      theme = "light" # light, dark, preferred_color_scheme 등
+      lang = "ko"
+      reactionsEnabled = true
+      emitMetadata = false
+      inputPosition = "top"
+      lazyLoad = true
+      strict = "0"
+      
+  # --- 기타 설정 ---
+  [params.analytics]
+    provider = "google"
+    google.measurementId = "" # Google Analytics ID 입력
+    
+  [params.seo]
+    seo = true # SEO 최적화 활성화
+    
+  [params.home]
+    params.layout = 1 # 메인 페이지 레이아웃 스타일 (1:카드, 2:리스트)
+    
+  [params.code]
+    copy = true # 코드 블록 복사 버튼 활성화
