@@ -1,0 +1,15 @@
+[en]
+  languageName = "English"
+  languageCode = "en"
+  weight = 2
+  title = "Chirpy"
+  [en.params]
+    tagline = "A text-focused blog theme"
+
+[zh-CN]
+  languageName = "한국어"
+  languageCode = "ko-KR"
+  weight = 1
+  title = "Chirpy"
+  [zh-CN.params]
+    tagline = "텍스트기반 블로그 테마"
