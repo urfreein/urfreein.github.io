@@ -4,3 +4,9 @@
 [submodule "themes/hugo-theme-chirpy"]
 	path = themes/hugo-theme-chirpy
 	url = https://github.com/geekifan/hugo-theme-chirpy.git
+[submodule "themes/LoveIt"]
+	path = themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
+[submodule "themes/DoIt"]
+	path = themes/DoIt
+	url = https://github.com/HEIGE-PCloud/DoIt.git
