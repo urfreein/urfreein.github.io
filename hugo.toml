@@ -1,0 +1,4 @@
+baseURL = 'https://urfreein.github.io/'
+languageCode = 'ko-KR'
+title = 'My New Hugo Site'
+theme = "ananke"
