@@ -3,7 +3,7 @@
 # ==================================
 baseURL = 'https://urfreein.github.io/' # 👈 사용자님의 URL
 languageCode = 'ko-KR'                 # 👈 한국어 설정
-title = "freein's DevLog"             # 👈 사용자님의 블로그 제목
+title = "freein DevLog"             # 👈 사용자님의 블로그 제목
 enableGitInfo = true                   # Git 정보를 사용 (빌드 날짜 등에 유용)
 
 # ==================================
