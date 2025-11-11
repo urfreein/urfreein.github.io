@@ -31,9 +31,14 @@ jobs:
         with:
           node-version: 18
 
-      # 2. Dart Sass를 npm을 통해 전역 설치 (경로 문제 해결)
+      # 2. Dart Sass를 npm을 통해 전역 설치 및 권한 부여 강화
       - name: Install Dart Sass
-        run: sudo npm install -g sass
+        run: |
+          npm install -g sass
+          # 설치된 sass 바이너리에 실행 권한이 확실하게 부여되도록 보장
+          SASS_PATH=$(npm prefix -g)/bin/sass
+          chmod +x $SASS_PATH || true
+          which sass
 
       # 3. Hugo 설정
       - name: Setup Hugo
@@ -41,14 +46,14 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true 
-          # compiler 옵션은 npm 설치로 대체되므로 생략하거나 그대로 둡니다.
+          # compiler 옵션은 npm 설치로 대체되므로 생략합니다.
 
-      # 4. 모듈 및 캐시 정리
+      # 4. 모듈 및 캐시 정리 (vendor 제거)
       - name: Clean Hugo Cache and Modules
         run: |
           rm -rf ~/.cache/hugo_cache
           hugo mod tidy
-          hugo mod vendor
+          # hugo mod vendor는 제거됨
 
       # 5. 빌드
       - name: Build Hugo
