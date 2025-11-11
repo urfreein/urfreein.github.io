@@ -16,38 +16,37 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  build: # 1. 빌드 Job (공백 2칸)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true # 테마를 서브모듈로 사용했다면 필수 (모듈 사용 시에도 안전)
-          fetch-depth: 0    # 전체 Git 기록을 가져옴
+          submodules: true 
+          fetch-depth: 0    
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3 # Hugo 설정 액션
+        uses: peaceiris/actions-hugo@v3 
         with:
           hugo-version: 'latest'
-          extended: true # Hugo Extended 버전 사용
-          **compiler: "dart-sass"** # Chirpy 테마 빌드 시 Dart Sass 의존성 해결
+          extended: true 
+          compiler: "dart-sass" # Sass 컴파일러 지정
 
       - name: Build Hugo
-        # public 폴더에 정적 파일을 생성합니다.
         run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public # 빌드 결과물(정적 파일)이 있는 폴더
+          path: ./public
 
-  deploy:
-    environment:
+  deploy: # 2. 배포 Job (공백 2칸)
+    environment: # (공백 4칸)
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build # build Job이 성공해야 실행
-    steps:
-      - name: Deploy to GitHub Pages
+    needs: build # 👈 오류가 발생했을 가능성이 높은 부분 (공백 4칸)
+    steps: # (공백 4칸)
+      - name: Deploy to GitHub Pages # (공백 6칸)
         id: deployment
-        uses: actions/deploy-pages@v4 # GitHub Pages에 배포하는 공식 액션
+        uses: actions/deploy-pages@v4
