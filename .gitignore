@@ -35,3 +35,6 @@ Thumbs.db # Windows
 # --- VS Code, IDEs, OS files ---
 .vscode/
 .idea/
+
+#
+*:Zone.Identifier
