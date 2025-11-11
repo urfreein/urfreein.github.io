@@ -3,7 +3,7 @@ name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: ["master"] # master 브랜치에 푸시가 발생할 때 실행
+    branches: ["master"]
   workflow_dispatch:
 
 permissions:
@@ -25,19 +25,24 @@ jobs:
           submodules: true 
           fetch-depth: 0    
 
-      # 1. Node.js 환경 설정 (Sass 설치를 위해)
+      # 1. Node.js 환경 설정
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      # 2. Dart Sass를 npm을 통해 전역 설치 및 권한 부여 강화
-      - name: Install Dart Sass
+      # 2. Dart Sass를 npm을 통해 설치하고 $PATH 및 권한 설정 👈 최종 수정 부분
+      - name: Install Dart Sass and Set Path
         run: |
           npm install -g sass
-          # 설치된 sass 바이너리에 실행 권한이 확실하게 부여되도록 보장
-          SASS_PATH=$(npm prefix -g)/bin/sass
-          chmod +x $SASS_PATH || true
+          NPM_GLOBAL_BIN=$(npm prefix -g)/bin
+          echo "NPM_GLOBAL_BIN=$NPM_GLOBAL_BIN" >> $GITHUB_ENV
+          echo "$NPM_GLOBAL_BIN" >> $GITHUB_PATH
+          
+          SASS_PATH="$NPM_GLOBAL_BIN/sass"
+          # read(4) + write(2) + execute(1) = 7 (owner)
+          # read(4) + execute(1) = 5 (group, others)
+          chmod 755 $SASS_PATH || true
           which sass
 
       # 3. Hugo 설정
@@ -46,14 +51,12 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true 
-          # compiler 옵션은 npm 설치로 대체되므로 생략합니다.
 
-      # 4. 모듈 및 캐시 정리 (vendor 제거)
+      # 4. 모듈 및 캐시 정리
       - name: Clean Hugo Cache and Modules
         run: |
           rm -rf ~/.cache/hugo_cache
           hugo mod tidy
-          # hugo mod vendor는 제거됨
 
       # 5. 빌드
       - name: Build Hugo
