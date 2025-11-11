@@ -5,7 +5,7 @@ baseURL = 'https://urfreein.github.io/'
 languageCode = 'ko-KR'
 title = 'My New Hugo Site'
 enableGitInfo = true
-defaultContentLanguage = "ko-KR"
+defaultContentLanguage = "ko"
 hasCJKLanguage = true
 
 # ==================================

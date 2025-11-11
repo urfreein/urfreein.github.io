@@ -6,10 +6,10 @@
   [en.params]
     tagline = "A text-focused blog theme"
 
-[zh-CN]
+[ko-KR]
   languageName = "한국어"
   languageCode = "ko-KR"
   weight = 1
   title = "Chirpy"
-  [zh-CN.params]
+  [ko-KR.params]
     tagline = "텍스트기반 블로그 테마"
