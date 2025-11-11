@@ -4,7 +4,7 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches: ["master"] # master 브랜치에 푸시가 발생할 때 실행
-  workflow_dispatch: # 수동 실행을 허용
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build: # 1. 빌드 Job (공백 2칸)
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,34 +25,48 @@ jobs:
           submodules: true 
           fetch-depth: 0    
 
+      # 1. Node.js 환경 설정 (Sass 설치를 위해)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # 2. Dart Sass를 npm을 통해 전역 설치 (경로 문제 해결)
+      - name: Install Dart Sass
+        run: sudo npm install -g sass
+
+      # 3. Hugo 설정
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3 
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true 
-          compiler: "dart-sass" # Sass 컴파일러 지정
-      
+          # compiler 옵션은 npm 설치로 대체되므로 생략하거나 그대로 둡니다.
+
+      # 4. 모듈 및 캐시 정리
       - name: Clean Hugo Cache and Modules
         run: |
           rm -rf ~/.cache/hugo_cache
           hugo mod tidy
-          hugo mod vendor # 필요한 모든 모듈을 로컬 폴더로 복사
+          hugo mod vendor
 
+      # 5. 빌드
       - name: Build Hugo
         run: hugo --minify
 
+      # 6. 아티팩트 업로드
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
-  deploy: # 2. 배포 Job (공백 2칸)
-    environment: # (공백 4칸)
+  deploy:
+    environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build # 👈 오류가 발생했을 가능성이 높은 부분 (공백 4칸)
-    steps: # (공백 4칸)
-      - name: Deploy to GitHub Pages # (공백 6칸)
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
