@@ -1,0 +1,37 @@
+# --- Hugo 빌드 아티팩트 및 임시 파일 ---
+# 1. 최종 빌드 결과물 (GitHub Actions가 생성 및 배포)
+public/
+
+# 2. 로컬 서버 실행 시 임시로 생성되는 파일
+# .hugo_build.lock: 로컬 서버 실행 중 생성되는 잠금 파일
+.hugo_build.lock
+
+# --- Hugo Module 캐시 및 환경 파일 ---
+# 3. Hugo Module 캐시
+# Hugo가 다운로드한 모듈 바이너리 및 캐시를 저장
+/resources/_gen/
+/assets/jsconfig.json
+/assets/css/
+/assets/scss/
+/data/
+/i18n/
+/layouts/
+
+# 4. Hugo Module 관련 Go 파일 (로컬에서만 관리)
+# GitHub Actions에서 hugo mod init을 통해 재생성되므로 커밋 불필요
+go.mod
+go.sum
+
+# --- Node.js 및 IDE/OS 관련 파일 (선택 사항) ---
+# 5. Node.js 패키지 (Dart Sass 설치 시 생성)
+/node_modules
+
+# 6. 운영체제 및 IDE 임시 파일
+.DS_Store # macOS
+Thumbs.db # Windows
+*.swp # Vim
+.vscode/ # VS Code 설정 (원치 않으면 커밋)
+
+# --- VS Code, IDEs, OS files ---
+.vscode/
+.idea/

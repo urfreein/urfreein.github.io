@@ -1,0 +1,25 @@
+# ==================================
+# 최소한의 기본 설정
+# ==================================
+baseURL = 'https://urfreein.github.io/'
+languageCode = 'ko-KR'
+title = 'My New Hugo Site'
+enableGitInfo = true
+
+# ==================================
+# 테마 및 모듈 설정 (충돌 방지)
+# ==================================
+# theme = "hugo-theme-chirpy" # 👈 'theme' 설정을 제거하여 모듈 방식만 사용
+[module]
+  [[module.imports]]
+    path = "github.com/geekifan/hugo-theme-chirpy"
+
+# ==================================
+# 필수 언어 설정
+# ==================================
+defaultContentLanguage = "ko"
+hasCJKLanguage = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

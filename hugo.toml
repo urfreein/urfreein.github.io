@@ -1,25 +1,56 @@
 # ==================================
-# 최소한의 기본 설정
+# 최소 기본 설정 (성공 확인된 내용)
 # ==================================
 baseURL = 'https://urfreein.github.io/'
 languageCode = 'ko-KR'
 title = 'My New Hugo Site'
 enableGitInfo = true
+defaultContentLanguage = "ko"
+hasCJKLanguage = true
 
 # ==================================
-# 테마 및 모듈 설정 (충돌 방지)
+# 모듈 설정 (성공 확인된 내용)
 # ==================================
-# theme = "hugo-theme-chirpy" # 👈 'theme' 설정을 제거하여 모듈 방식만 사용
 [module]
   [[module.imports]]
     path = "github.com/geekifan/hugo-theme-chirpy"
 
 # ==================================
-# 필수 언어 설정
+# 섹션 및 출력 (Chirpy 필수)
 # ==================================
-defaultContentLanguage = "ko"
-hasCJKLanguage = true
-
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"] # 👈 검색 기능 활성화를 위해 JSON 출력 추가
+
+[pagination]
+  pagerSize = 5
+
+# ==================================
+# [params] 섹션 추가 (테마 기능 활성화)
+# ==================================
+[params]
+  author = "urfreein"
+  description = "My Hugo Blog with Chirpy Theme"
+  keywords = ["hugo", "chirpy"]
+  mainSections = ["posts"]
+  dateFormat = "2006-01-02"
+  palette = "light"
+  
+  # --- 소셜 링크 (필수) ---
+  [params.social]
+    github = "urfreein"
+    # ... Chirpy exampleSite에서 필요한 소셜 링크 복사 ...
+    
+  # --- 검색 설정 (필수) ---
+  [params.search]
+    provider = "lunr"
+    indexing = true
+  
+  # --- 코드 설정 ---
+  [params.code]
+    copy = true
+    
+  # (여기에 Chirpy exampleSite의 나머지 [params] 섹션들을 순차적으로 추가합니다.)
