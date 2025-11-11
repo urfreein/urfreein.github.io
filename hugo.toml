@@ -9,12 +9,12 @@ enableGitInfo = true                   # Git 정보를 사용 (빌드 날짜 등
 # ==================================
 # 테마 및 모듈 설정 (Theme & Module)
 # ==================================
-theme = "hugo-theme-chirpy"
 
 [module]
   [[module.imports]]
     path = "github.com/geekifan/hugo-theme-chirpy"
 
+theme = "hugo-theme-chirpy"
 # ==================================
 # 언어 및 빌드 설정 (Language & Build)
 # ==================================
