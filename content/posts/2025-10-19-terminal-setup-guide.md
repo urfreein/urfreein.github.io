@@ -46,6 +46,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 - `.zshrc` 플러그인 섹션에 `plugins=(git zsh-autosuggestions zsh-syntax-highlighting)` 추가
+> 플러그인 설정에서 `zsh-syntax-highlighting`이 항상 마지막에 오도록 설정한다.
+{: .prompt-warning }
 
 ### 2.5 eza + colorls 스타일 Solarized Dark 설정
 - 별도 파일 생성: `~/.config/eza_colors.sh`
@@ -145,6 +147,7 @@ $(brew --prefix)/opt/fzf/install
 ```bash
 alias cat='bat'
 ```
+- `bat`은 `cat`을 대체하면서 syntax highlighting 기능이 있다.
 
 ### 2.9 Git diff 도구 설정
 ```bash
