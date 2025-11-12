@@ -1,21 +1,34 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - My New Hugo Site</title>
+        <title>모든 글 - </title>
         <link>http://localhost:1313/posts/</link>
-        <description>All Posts | My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Tue, 11 Nov 2025 17:32:47 &#43;0900</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <description>모든 글 | </description>
+        <generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Tue, 11 Nov 2025 23:39:45 &#43;0900</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>My Second Post</title>
+    <link>http://localhost:1313/my-second-post/</link>
+    <pubDate>Tue, 11 Nov 2025 23:39:45 &#43;0900</pubDate><author>
+        <name>freein</name>
+    </author><guid>http://localhost:1313/my-second-post/</guid>
+    <description><![CDATA[<h1 id="이-글의-주제-h1" class="headerLink">
+    <a href="#%ec%9d%b4-%ea%b8%80%ec%9d%98-%ec%a3%bc%ec%a0%9c-h1" class="header-mark"></a>이 글의 주제 (H1)</h1><h2 id="첫-번째-섹션-h2" class="headerLink">
+    <a href="#%ec%b2%ab-%eb%b2%88%ec%a7%b8-%ec%84%b9%ec%85%98-h2" class="header-mark"></a>첫 번째 섹션 (H2)</h2><p>이곳에 내용이 들어갑니다.</p>
+<h3 id="세부-내용-h3" class="headerLink">
+    <a href="#%ec%84%b8%eb%b6%80-%eb%82%b4%ec%9a%a9-h3" class="header-mark"></a>세부 내용 (H3)</h3><p>더 깊은 내용입니다.</p>
+<h2 id="두-번째-섹션-h2" class="headerLink">
+    <a href="#%eb%91%90-%eb%b2%88%ec%a7%b8-%ec%84%b9%ec%85%98-h2" class="header-mark"></a>두 번째 섹션 (H2)</h2><p>새로운 대주제입니다.</p>]]></description>
+</item><item>
     <title>My First Post</title>
-    <link>http://localhost:1313/posts/my-first-post/</link>
+    <link>http://localhost:1313/my-first-post/</link>
     <pubDate>Tue, 11 Nov 2025 17:32:47 &#43;0900</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/my-first-post/</guid>
+        <name>freein</name>
+    </author><guid>http://localhost:1313/my-first-post/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>SSH 키 생성 알고리즘 완벽 가이드: RSA vs ECDSA vs Ed25519</title>
-    <link>http://localhost:1313/posts/2025-11-11-ssh-keygen-algorithm-guide/</link>
+    <link>http://localhost:1313/2025-11-11-ssh-keygen-algorithm-guide/</link>
     <pubDate>Tue, 11 Nov 2025 14:30:00 &#43;0900</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2025-11-11-ssh-keygen-algorithm-guide/</guid>
+        <name>freein</name>
+    </author><guid>http://localhost:1313/2025-11-11-ssh-keygen-algorithm-guide/</guid>
     <description><![CDATA[<h2 id="1-telnet에서-ssh로의-전환" class="headerLink">
     <a href="#1-telnet%ec%97%90%ec%84%9c-ssh%eb%a1%9c%ec%9d%98-%ec%a0%84%ed%99%98" class="header-mark"></a>1. Telnet에서 SSH로의 전환</h2><p>과거 서버 관리에는 Telnet이 널리 사용되었습니다. 하지만 Telnet은 모든 데이터를 평문으로 전송하기 때문에 네트워크 상에서 패킷을 가로채면 비밀번호를 포함한 모든 정보가 노출되는 치명적인 보안 취약점이 있었습니다.</p>
 <p>이러한 문제를 해결하기 위해 SSH(Secure Shell)가 개발되었습니다. SSH는 암호화된 통신 채널을 제공하여 안전한 원격 서버 접속을 가능하게 합니다. 특히 공개키 암호화 방식을 사용한 키 기반 인증은 비밀번호 인증보다 훨씬 안전하고 편리한 접속 방법을 제공합니다.</p>
@@ -23,10 +36,10 @@
     <a href="#2-ssh-%ed%82%a4-%ec%83%9d%ec%84%b1-%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98%ec%9d%98-%ec%a2%85%eb%a5%98" class="header-mark"></a>2. SSH 키 생성 알고리즘의 종류</h2><p>SSH 키를 생성할 때 <code>ssh-keygen</code> 명령어를 사용하며, <code>-t</code> 옵션으로 알고리즘을 선택할 수 있습니다. 주요 알고리즘은 다음과 같습니다.</p>]]></description>
 </item><item>
     <title>GitHub Pages와 Jekyll로 개발자 블로그 만들기</title>
-    <link>http://localhost:1313/posts/2025-11-11-github-pages-jekyll-blog-guide/</link>
+    <link>http://localhost:1313/2025-11-11-github-pages-jekyll-blog-guide/</link>
     <pubDate>Tue, 11 Nov 2025 00:10:00 &#43;0900</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2025-11-11-github-pages-jekyll-blog-guide/</guid>
+        <name>freein</name>
+    </author><guid>http://localhost:1313/2025-11-11-github-pages-jekyll-blog-guide/</guid>
     <description><![CDATA[<h2 id="github-pages와-jekyll을-선택해야-하는-이유" class="headerLink">
     <a href="#github-pages%ec%99%80-jekyll%ec%9d%84-%ec%84%a0%ed%83%9d%ed%95%b4%ec%95%bc-%ed%95%98%eb%8a%94-%ec%9d%b4%ec%9c%a0" class="header-mark"></a>GitHub Pages와 Jekyll을 선택해야 하는 이유</h2><p>개발자라면 네이버 블로그나 티스토리 같은 일반 블로그 플랫폼보다 GitHub Pages를 활용한 블로그를 고려해볼 만합니다. GitHub Pages는 GitHub에서 제공하는 무료 정적 웹사이트 호스팅 서비스로, 개발자의 포트폴리오이자 기술 블로그로 활용하기에 최적화되어 있습니다. github.io라는 도메인으로 호스팅 되므로, 개발자들에게 친숙한 github에 익숙한 사용자라는 인상을 주는 것도 덤입니다.</p>
 <h3 id="개발자에게-github-pages가-매력적인-이유" class="headerLink">
@@ -41,10 +54,10 @@
 Github Pages가 웹서비스를 위한 땅을 제공한다면, Jekyll은 집을 만드는 도구이고, Jekyll에 적용하는 테마는 집의 다양한 모양을 제공하는 것에 비유할 수 있습니다.</p>]]></description>
 </item><item>
     <title>GitHub Pages에서 Cloudflare Pages로 Jekyll 블로그 마이그레이션하기</title>
-    <link>http://localhost:1313/posts/2025-11-10-migrate-github-pages-to-cloudflare/</link>
+    <link>http://localhost:1313/2025-11-10-migrate-github-pages-to-cloudflare/</link>
     <pubDate>Mon, 10 Nov 2025 16:30:00 &#43;0900</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2025-11-10-migrate-github-pages-to-cloudflare/</guid>
+        <name>freein</name>
+    </author><guid>http://localhost:1313/2025-11-10-migrate-github-pages-to-cloudflare/</guid>
     <description><![CDATA[<h2 id="개요" class="headerLink">
     <a href="#%ea%b0%9c%ec%9a%94" class="header-mark"></a>개요</h2><p>GitHub Pages는 많은 개발자들이 선택하는 무료 호스팅 서비스입니다. 하지만 더 나은 성능과 보안을 위해 Cloudflare Pages로 이전을 고려하게 되었습니다. 이 글에서는 기존 GitHub Pages 블로그를 Cloudflare Pages로 옮기는 과정을 제 경험으로 설명합니다.</p>
 <h2 id="마이그레이션이-필요한-이유" class="headerLink">
@@ -59,10 +72,10 @@ Github Pages가 웹서비스를 위한 땅을 제공한다면, Jekyll은 집을 
     <a href="#%eb%a7%88%ec%9d%b4%ea%b7%b8%eb%a0%88%ec%9d%b4%ec%85%98-%ec%a4%80%eb%b9%84-%ec%82%ac%ed%95%ad" class="header-mark"></a>마이그레이션 준비 사항</h2><p>마이그레이션을 시작하기 전에 다음 사항을 확인하세요:</p>]]></description>
 </item><item>
     <title>Cloudflare Pages로 블로그를 운영해야 하는 이유: 보안, 속도, 그리고 유연성</title>
-    <link>http://localhost:1313/posts/2025-11-10-benefits-of-cloudflare-pages/</link>
+    <link>http://localhost:1313/2025-11-10-benefits-of-cloudflare-pages/</link>
     <pubDate>Mon, 10 Nov 2025 16:00:00 &#43;0900</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2025-11-10-benefits-of-cloudflare-pages/</guid>
+        <name>freein</name>
+    </author><guid>http://localhost:1313/2025-11-10-benefits-of-cloudflare-pages/</guid>
     <description><![CDATA[<h2 id="서론" class="headerLink">
     <a href="#%ec%84%9c%eb%a1%a0" class="header-mark"></a>서론</h2><p>정적 사이트 호스팅 서비스를 선택할 때 가장 중요하게 고려해야 할 요소는 무엇일까요? 안정성, 속도, 보안, 그리고 사용 편의성일 것입니다. Cloudflare Pages는 이 모든 요소를 무료 플랜에서도 강력하게 제공하는 서비스입니다. 이 글에서는 초보 블로거 관점에서 Cloudflare Pages의 핵심 장점을 자세히 살펴보겠습니다.</p>
 <h2 id="다양한-정적-사이트-빌드-도구-지원" class="headerLink">
@@ -71,10 +84,10 @@ Github Pages가 웹서비스를 위한 땅을 제공한다면, Jekyll은 집을 
     <a href="#%ec%a7%80%ec%9b%90%eb%90%98%eb%8a%94-%ec%a3%bc%ec%9a%94-%ed%94%84%eb%a0%88%ec%9e%84%ec%9b%8c%ed%81%ac" class="header-mark"></a>지원되는 주요 프레임워크</h3><p>Jekyll만 지원하는 다른 서비스와 달리, Cloudflare Pages는 현대적인 정적 사이트 생성 도구를 광범위하게 지원합니다:</p>]]></description>
 </item><item>
     <title>워드프레스(WordPress) 라이브 서버 구축 및 운영 워크플로우</title>
-    <link>http://localhost:1313/posts/2025-11-08-wordpress-live-ready/</link>
+    <link>http://localhost:1313/2025-11-08-wordpress-live-ready/</link>
     <pubDate>Sat, 08 Nov 2025 13:41:10 &#43;0900</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2025-11-08-wordpress-live-ready/</guid>
+        <name>freein</name>
+    </author><guid>http://localhost:1313/2025-11-08-wordpress-live-ready/</guid>
     <description><![CDATA[<p>워드프레스 프로젝트를 로컬 환경에서 개발한 후, 실제 라이브 서버로 배포하고 안정적으로 운영하는 것은 매우 중요한 단계입니다. 이 워크플로우는 개발 환경 구축부터 클라우드 배포, 데이터 마이그레이션, CDN 연동 및 최종 수익화 준비까지 모든 과정을 체계적으로 안내합니다.</p>
 <h2 id="i-로컬-환경-wsl2docker-구축-및-기능-검증" class="headerLink">
     <a href="#i-%eb%a1%9c%ec%bb%ac-%ed%99%98%ea%b2%bd-wsl2docker-%ea%b5%ac%ec%b6%95-%eb%b0%8f-%ea%b8%b0%eb%8a%a5-%ea%b2%80%ec%a6%9d" class="header-mark"></a>I. 로컬 환경 (WSL2/Docker) 구축 및 기능 검증</h2><p>라이브 배포 전, 개발된 기능과 환경이 완벽하게 작동하는지 로컬에서 검증하는 단계입니다. Docker를 사용하면 운영 환경과 유사한 환경을 쉽게 구축할 수 있습니다.</p>
@@ -113,10 +126,10 @@ Github Pages가 웹서비스를 위한 땅을 제공한다면, Jekyll은 집을 
     <a href="#ii-vultr-%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c-%ec%84%9c%eb%b2%84-%ed%99%98%ea%b2%bd-%ec%a4%80%eb%b9%84" class="header-mark"></a>II. Vultr 클라우드 서버 환경 준비</h2><p>로컬에서 검증된 워드프레스를 호스팅 할 실제 클라우드 서버(VM)를 준비합니다.</p>]]></description>
 </item><item>
     <title>Docker Image를 이용한 WordPress 환경 구축 가이드</title>
-    <link>http://localhost:1313/posts/2025-11-08-wordpress-setup-guide/</link>
+    <link>http://localhost:1313/2025-11-08-wordpress-setup-guide/</link>
     <pubDate>Sat, 08 Nov 2025 11:11:53 &#43;0900</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2025-11-08-wordpress-setup-guide/</guid>
+        <name>freein</name>
+    </author><guid>http://localhost:1313/2025-11-08-wordpress-setup-guide/</guid>
     <description><![CDATA[<h2 id="1단계-wsl2-환경-준비-및-도커-설치-확인" class="headerLink">
     <a href="#1%eb%8b%a8%ea%b3%84-wsl2-%ed%99%98%ea%b2%bd-%ec%a4%80%eb%b9%84-%eb%b0%8f-%eb%8f%84%ec%bb%a4-%ec%84%a4%ec%b9%98-%ed%99%95%ec%9d%b8" class="header-mark"></a>1단계: WSL2 환경 준비 및 도커 설치 확인</h2><p>먼저 WSL2 내부에 도커를 사용할 수 있도록 환경을 준비해야 합니다.</p>
 <h3 id="a-docker-desktop-설정-확인-권장" class="headerLink">
@@ -128,7 +141,7 @@ Github Pages가 웹서비스를 위한 땅을 제공한다면, Jekyll은 집을 
 </ol>
 <h3 id="b-docker-compose-설치-확인" class="headerLink">
     <a href="#b-docker-compose-%ec%84%a4%ec%b9%98-%ed%99%95%ec%9d%b8" class="header-mark"></a>B. docker-compose 설치 확인</h3><p>WSL2 셸을 열고 다음 명령어로 <code>docker-compose</code>가 설치되어 있는지 확인합니다.</p>
-<div class="code-block highlight is-closed show-line-numbers  tw-group tw-my-2">
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
     
     tw-flex 
@@ -150,32 +163,23 @@ Github Pages가 웹서비스를 위한 땅을 제공한다면, Jekyll은 집을 
           <p class="tw-select-none !tw-my-1">bash</p>]]></description>
 </item><item>
     <title>윈도우 10에서 rclone CLI로 구글 드라이브 사용 가이드</title>
-    <link>http://localhost:1313/posts/2025-11-07-rclone-using-guide/</link>
+    <link>http://localhost:1313/2025-11-07-rclone-using-guide/</link>
     <pubDate>Fri, 07 Nov 2025 11:44:00 &#43;0900</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2025-11-07-rclone-using-guide/</guid>
+        <name>freein</name>
+    </author><guid>http://localhost:1313/2025-11-07-rclone-using-guide/</guid>
     <description><![CDATA[<p>클라우드 스토리지 서비스, 특히 구글 드라이브는 편리하지만, 저사양의 가상 머신(VM) 환경, 예를 들어 Vultr VM에서 웹 브라우저를 통해 파일을 관리하려고 하면 웹페이지 로딩으로 인해 비효율적인 경우가 많습니다.</p>
 <p>이러한 상황에서 <strong>rclone</strong>은 구세주와 같습니다. rclone은 50가지 이상의 클라우드 스토리지 서비스에 접근할 수 있게 해주는 명령줄 인터페이스(CLI) 프로그램으로, 웹 인터페이스 없이도 빠르고 간편하게 파일을 관리할 수 있도록 돕습니다. 본 가이드에서는 Windows 10 환경을 기준으로 rclone을 처음 설치하고 구글 드라이브를 설정한 후 파일을 전송하는 모든 과정을 안내합니다.</p>]]></description>
 </item><item>
     <title>Google Sheets API 연동을 위한 서비스 계정 생성 및 키 발급 가이드</title>
-    <link>http://localhost:1313/posts/2025-11-01-gcp-service-account/</link>
+    <link>http://localhost:1313/2025-11-01-gcp-service-account/</link>
     <pubDate>Sat, 01 Nov 2025 00:38:40 &#43;0900</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2025-11-01-gcp-service-account/</guid>
+        <name>freein</name>
+    </author><guid>http://localhost:1313/2025-11-01-gcp-service-account/</guid>
     <description><![CDATA[<p>Google Cloud Platform(GCP)의 **서비스 계정(Service Account)**은 외부 시스템이나 자동화 스크립트가 Google 스프레드시트(Google Sheets)와 같은 Google 서비스에 접근하도록 인증하는 핵심 요소입니다. 이 가이드에서는 스프레드시트 데이터 연동을 목적으로 서비스 계정을 설정하는 과정을 상세히 다룹니다.</p>
 <hr>
 <h2 id="0-시작-전-준비-사항-gcp-프로젝트-및-api-활성화" class="headerLink">
     <a href="#0-%ec%8b%9c%ec%9e%91-%ec%a0%84-%ec%a4%80%eb%b9%84-%ec%82%ac%ed%95%ad-gcp-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-%eb%b0%8f-api-%ed%99%9c%ec%84%b1%ed%99%94" class="header-mark"></a>0. 시작 전 준비 사항: GCP 프로젝트 및 API 활성화</h2><p>서비스 계정을 생성하고 사용하려면 해당 계정이 속할 <strong>GCP 프로젝트</strong>가 필요하며, 목표 서비스인 <strong>Google Sheets API</strong>를 활성화해야 합니다.</p>
 <h3 id="01-gcp-프로젝트-생성-필수" class="headerLink">
     <a href="#01-gcp-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-%ec%83%9d%ec%84%b1-%ed%95%84%ec%88%98" class="header-mark"></a>0.1. GCP 프로젝트 생성 (필수)</h3><p>Google Cloud에서 모든 리소스와 설정은 <strong>프로젝트</strong>를 단위로 관리됩니다. 만약 기존 프로젝트가 없다면, 다음 단계를 통해 프로젝트를 먼저 생성해야 합니다.</p>]]></description>
-</item><item>
-    <title>curl과 iwr 스크립트 활용 가이드</title>
-    <link>http://localhost:1313/posts/2025-10-31-iwr-curl-using-at-vultr-vm/</link>
-    <pubDate>Fri, 31 Oct 2025 22:48:04 &#43;0900</pubDate><author>
-        <name>Author</name>
-    </author><guid>http://localhost:1313/posts/2025-10-31-iwr-curl-using-at-vultr-vm/</guid>
-    <description><![CDATA[<h2 id="저사양-vm을-위한-효율적인-파일-전송-전략" class="headerLink">
-    <a href="#%ec%a0%80%ec%82%ac%ec%96%91-vm%ec%9d%84-%ec%9c%84%ed%95%9c-%ed%9a%a8%ec%9c%a8%ec%a0%81%ec%9d%b8-%ed%8c%8c%ec%9d%bc-%ec%a0%84%ec%86%a1-%ec%a0%84%eb%9e%b5" class="header-mark"></a>저사양 VM을 위한 효율적인 파일 전송 전략</h2><p>Vultr와 같은 클라우드 서비스에서 **최소 사양의 VM(Virtual Machine)**을 운영하는 경우, 웹 브라우저를 통한 파일 다운로드(특히 용량이 크거나 구글 드라이브처럼 스크립트 로딩이 많은 페이지)는 상상 이상으로 느리고 비효율적일 수 있습니다. 웹 UI 로딩 자체가 VM 리소스를 과도하게 소모하기 때문입니다.</p>
-<p>이러한 환경에서 가장 빠르고 안정적인 파일 전송 방법은 <strong>Private Git Repository</strong> 또는 자체 파일 서버에 올려둔 파일을 <strong>터미널 명령어</strong>를 통해 직접 다운로드하는 것입니다. 본 글에서는 대표적인 두 가지 툴, <strong><code>curl</code></strong> (Linux/macOS)과 **<code>Invoke-WebRequest</code> (<code>iwr</code> - Windows PowerShell)**을 사용하여 Private Repository에서 파일을 안전하게 다운로드하는 스크립트 작성법을 안내합니다.</p>]]></description>
 </item></channel>
 </rss>
