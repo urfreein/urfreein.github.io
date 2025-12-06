@@ -1,4 +1,5 @@
-baseURL = "http://urfreein.github.io/"
+# baseURL = "https://urfreein.github.io/"
+baseURL = "https://urinfo.netlify.app/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "ko"
 # language code
