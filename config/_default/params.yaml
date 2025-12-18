@@ -1,18 +1,35 @@
+# Site-wide settings
 mainSections:
   - posts
 
 featuredImageField: image
+rssFullContent: true
 
+# Sidebar
 sidebar:
   emoji: 🍥
-  subtitle: Tech Blog
+  subtitle: Tech & Development Blog
+  avatar:
+    enabled: true
+    local: true
+    src: img/avatar.png
 
+# Article
 article:
   math: true
   readingTime: true
   toc: true
+  headingAnchor: true
+  license:
+    enabled: true
+    default: Licensed under CC BY-NC-SA 4.0
 
-# Widgets 설정 (TOC 표시 위해 필요)
+# Date Format
+dateFormat:
+  published: 2006-01-02
+  lastUpdated: 2006-01-02 15:04 MST
+
+# Widgets
 widgets:
   homepage:
     - type: search
@@ -28,12 +45,36 @@ widgets:
   page:
     - type: toc
 
+# Comments
 comments:
   enabled: false
 
+# Footer
 footer:
   since: 2020
-  
+  customText: ''
+
+# Open Graph
+opengraph:
+  twitter:
+    site: ''
+    card: summary_large_image
+
+# Default Image
 defaultImage:
   opengraph:
     enabled: false
+    local: false
+    src: ''
+
+# Color Scheme
+colorScheme:
+  toggle: true
+  default: auto
+
+# Image Processing
+imageProcessing:
+  cover:
+    enabled: true
+  content:
+    enabled: true
