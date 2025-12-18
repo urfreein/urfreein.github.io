@@ -34,22 +34,26 @@ languages:
     languageName: Español
     title: Urinfo24
     weight: 6
+  pt-br:
+    languageName: Português
+    title: Urinfo24
+    weight: 7
   vi:
     languageName: Tiếng Việt
     title: Urinfo24
-    weight: 7
+    weight: 8
   th:
     languageName: ไทย
     title: Urinfo24
-    weight: 8
+    weight: 9
   hi:
     languageName: हिन्दी
     title: Urinfo24
-    weight: 9
+    weight: 10
   id:
     languageName: Bahasa Indonesia
     title: Urinfo24
-    weight: 10
+    weight: 11
 
 # 기본 설정
 pagination:
