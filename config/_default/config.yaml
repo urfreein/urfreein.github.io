@@ -1,0 +1,26 @@
+baseURL: https://urinfo24.com/
+languageCode: ko-kr
+title: Urinfo24
+
+# Hugo Modules
+module:
+  imports:
+    - path: github.com/CaiJimmy/hugo-theme-stack/v3
+
+# 다국어 설정
+defaultContentLanguage: ko
+languages:
+  ko:
+    languageName: 한국어
+    title: Urinfo24
+    weight: 1
+  en:
+    languageName: English  
+    title: Urinfo24
+    weight: 2
+
+# 기본 설정
+pagination:
+  pagerSize: 10
+hasCJKLanguage: true
+enableRobotsTXT: true

@@ -1,0 +1,23 @@
+mainSections:
+  - posts
+
+featuredImageField: image
+
+sidebar:
+  emoji: 🍥
+  subtitle: Tech Blog
+
+article:
+  math: true
+  readingTime: true
+  toc: true
+
+comments:
+  enabled: false
+
+footer:
+  since: 2020
+  
+defaultImage:
+  opengraph:
+    enabled: false
