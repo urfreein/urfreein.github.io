@@ -5,18 +5,6 @@ main:
     weight: 1
     params:
       icon: home
-    
-  - identifier: archives
-    pageRef: /page/archives
-    weight: 2
-    params:
-      icon: archives
-    
-  - identifier: search
-    pageRef: /page/search
-    weight: 3
-    params:
-      icon: search
 
 social:
   - identifier: github
