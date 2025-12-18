@@ -5,7 +5,7 @@ lastmod: 2025-11-11T00:10:00+09:00
 draft: false
 description: GitHub Pages와 Jekyll을 활용하여 무료로 개발자스러운 블로그를 만드는 완벽 가이드
 tags: ["github-pages", "jekyll", "정적-사이트", "블로그", "개발자-블로그"]
-categories: ["개발"]
+categories: ["Tutorial"]
 image: "https://images.urinfo24.com/featured/github-pages-jekyll-blog-guide-featured.jpg"
 lightgallery: true
 ---
@@ -268,7 +268,7 @@ YYYY-MM-DD-title.md
 ---
 title: 내 첫 블로그 글
 date: 2025-11-10 14:30:00 +0900
-categories: [개발, 튜토리얼]
+categories: ["Tutorial"]
 tags: [jekyll, github-pages, 블로그]
 excerpt: GitHub Pages로 만든 첫 번째 블로그 글입니다
 ---

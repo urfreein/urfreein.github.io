@@ -5,7 +5,7 @@ lastmod: 2025-01-01T00:00:00+09:00
 draft: false
 description: 
 tags: ["vultr", "ssh", "server", "linux"]
-categories: ["tutorial"]
+categories: ["Tutorial"]
 image: "https://images.urinfo24.com/featured/howto-vultr-ssh-connection-featured.jpg"
 lightgallery: true
 ---

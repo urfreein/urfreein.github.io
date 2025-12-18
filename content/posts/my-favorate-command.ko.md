@@ -5,7 +5,7 @@ lastmod: 2025-10-27T08:14:48+09:00
 draft: false
 description: "자주 사용하는 필수 CLI 명령어를 간결한 리스트 형태로 정리하여 빠르게 찾아볼 수 있도록 돕는 치트 시트입니다."
 tags: ["CLI", "명령어", "Linux", "macOS", "Windows", "du", "find", "ls", "shutdown", "PowerShell"]
-categories: ["기술"]
+categories: ["Tech"]
 image: "https://images.urinfo24.com/featured/my-favorate-command-featured.jpg"
 lightgallery: true
 ---

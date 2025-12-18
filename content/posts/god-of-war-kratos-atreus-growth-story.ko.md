@@ -5,7 +5,7 @@ lastmod: 2025-12-16T15:30:00+09:00
 draft: false
 description: "God of War (2018)과 Ragnarök를 플레이하며 느낀 아버지와 아들의 성장 이야기. 현실의 아들도 게임 속 아트레우스와 함께 자라났다."
 tags: ["god-of-war", "갓오브워", "ragnarok", "라그나로크", "크레이토스", "아트레우스", "게임리뷰", "부모게이머"]
-categories: ["게임"]
+categories: ["Game"]
 image: "https://images.urinfo24.com/featured/god-of-war-kratos-atreus-growth-story-featured.jpg"
 lightgallery: true
 ---

@@ -5,7 +5,7 @@ lastmod: 2025-01-01T00:00:00+09:00
 draft: false
 description: 
 tags: ["vi", "vim", "editor", "cheatsheet", "command"]
-categories: ["tutorial"]
+categories: ["Tutorial"]
 image: "https://images.urinfo24.com/featured/vi-cheat-sheet-featured.jpg"
 lightgallery: true
 ---
