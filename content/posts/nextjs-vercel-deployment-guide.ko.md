@@ -6,7 +6,7 @@ draft: false
 description: Next.js 기반 웹 애플리케이션을 Vercel을 통해 빠르고 효율적으로 배포하는 방법을 단계별로 알아봅니다.
 tags: ["nextjs", "vercel", "deployment", "frontend", "devops", "cicd"]
 categories: ["DevOps"]
-image: "https://images.urinfo24.com/featured/nextjs-vercel-deployment-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/nextjs-vercel-deployment-guide-featured.jpg"
 lightgallery: true
 ---
 

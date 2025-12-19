@@ -6,7 +6,7 @@ draft: false
 description: "WSL2 환경에서 docker-compose를 활용하여 WordPress와 MariaDB를 두 개의 컨테이너로 효율적으로 구축하고 실행하는 단계별 상세 가이드입니다."
 tags: ["WSL2", "Docker", "Docker-Compose", "WordPress", "MariaDB", "개발환경"]
 categories: ["DevOps"]
-image: "https://images.urinfo24.com/featured/wordpress-setup-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/wordpress-setup-guide-featured.jpg"
 lightgallery: true
 ---
 

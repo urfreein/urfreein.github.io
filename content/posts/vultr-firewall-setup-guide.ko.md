@@ -6,7 +6,7 @@ draft: false
 description: "Vultr의 웹 기반 방화벽 기능을 활용한 클라우드 서버 보안 설정 방법. Firewall Group 생성부터 실전 활용까지 완벽 가이드."
 tags: ["vultr", "firewall", "방화벽", "서버보안", "vps", "클라우드보안", "인프라"]
 categories: ["Cloud"]
-image: "https://images.urinfo24.com/featured/vultr-firewall-setup-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/vultr-firewall-setup-guide-featured.jpg"
 lightgallery: true
 ---
 

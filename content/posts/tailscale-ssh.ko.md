@@ -6,7 +6,7 @@ draft: false
 description: "방화벽을 우회하여 어디서든 안전하게 서버에 SSH 접속하는 방법. Tailscale 설치부터 설정까지 완벽 가이드."
 tags: ["tailscale", "ssh", "vpn", "zero-trust", "remote-access"]
 categories: ["DevOps"]
-image: "https://images.urinfo24.com/featured/tailscale-ssh-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/tailscale-ssh-featured.jpg"
 lightgallery: true
 ---
 

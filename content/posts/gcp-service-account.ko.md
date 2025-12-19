@@ -6,7 +6,7 @@ draft: false
 description: "외부 애플리케이션이 Google 스프레드시트 데이터에 안전하게 접근하고 읽기/쓰기 작업을 수행할 수 있도록, Google Cloud Platform에서 서비스 계정을 생성하고 키를 발급받는 실용적인 방법을 안내합니다."
 tags: ["GCP", "서비스계정", "GoogleSheetsAPI", "IAM", "자동화"]
 categories: ["Google Cloud"]
-image: "https://images.urinfo24.com/featured/gcp-service-account-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/gcp-service-account-featured.jpg"
 lightgallery: true
 ---
 

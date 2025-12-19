@@ -6,7 +6,7 @@ draft: false
 description: "저사양 VM 환경에서 구글 드라이브 대신 Private Repository의 파일을 효율적으로 다운로드하는 방법을 찾고 계신가요? 이 가이드는 Linux/macOS의 `curl`과 Windows PowerShell의 `iwr`을 사용한 자동화 스크립트 작성 방법을 상세히 알려드립니다."
 tags: ["curl", "iwr", "powershell", "linux", "private-repo", "automation", "vultr-vm"]
 categories: ["Tech"]
-image: "https://images.urinfo24.com/featured/iwr-curl-using-at-vultr-vm-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/iwr-curl-using-at-vultr-vm-featured.jpg"
 lightgallery: true
 ---
 

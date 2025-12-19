@@ -6,7 +6,7 @@ draft: false
 description: "Vultr의 Windows 10 Pro 서버 설치 후, 24시간 자동 거래 프로그램을 안정적으로 운영하기 위해 시스템 리소스를 최소화하는 후속 설정 가이드입니다."
 tags: ["Vultr Windows", "Minimal setup", "Windows 10", "최적화", "자동거래", "리소스 절약"]
 categories: ["Cloud"]
-image: "https://images.urinfo24.com/featured/minimal-vultr-win-setup-part2-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/minimal-vultr-win-setup-part2-featured.jpg"
 lightgallery: true
 ---
 

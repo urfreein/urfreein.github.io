@@ -6,7 +6,7 @@ draft: false
 description: "클라우드 초보자를 위한 Vultr Windows 설치 가이드입니다. 설치 후 Vultr의 View Console을 통해 모든 설정을 마무리하는 방법을 안내합니다."
 tags: ["Vultr Windows", "Minimal setup", "Windows 10", "VirtIO", "Custom ISO", "VNC 콘솔"]
 categories: ["Cloud"]
-image: "https://images.urinfo24.com/featured/minimal-vultr-win-setup-part1-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/minimal-vultr-win-setup-part1-featured.jpg"
 lightgallery: true
 ---
 

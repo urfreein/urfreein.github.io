@@ -6,7 +6,7 @@ draft: false
 description: 
 tags: ["docker", "docker-compose", "cli", "cheatsheet", "devops"]
 categories: ["Tutorial"]
-image: "https://images.urinfo24.com/featured/using-docker-command-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/using-docker-command-guide-featured.jpg"
 lightgallery: true
 ---
 

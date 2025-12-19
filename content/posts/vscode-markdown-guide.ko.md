@@ -6,7 +6,7 @@ draft: false
 description: 
 tags: ["vscode", "markdown", "editor"]
 categories: ["Tutorial"]
-image: "https://images.urinfo24.com/featured/vscode-markdown-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/vscode-markdown-guide-featured.jpg"
 lightgallery: true
 ---
 

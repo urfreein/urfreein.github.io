@@ -6,7 +6,7 @@ draft: false
 description: "Vultr के वेब-आधारित फ़ायरवॉल का उपयोग करके क्लाउड सर्वर को सुरक्षित करने के लिए संपूर्ण गाइड। Firewall Groups बनाने से लेकर व्यावहारिक कार्यान्वयन तक।"
 tags: ["vultr", "firewall", "방화벽", "서버보안", "vps", "클라우드보안", "인프라"]
 categories: ["클라우드"]
-image: "https://images.urinfo24.com/featured/vultr-firewall-setup-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/vultr-firewall-setup-guide-featured.jpg"
 lightgallery: true
 ---
 

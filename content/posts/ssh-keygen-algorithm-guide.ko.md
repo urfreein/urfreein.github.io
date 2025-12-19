@@ -6,7 +6,7 @@ draft: false
 description: "SSH 키 생성 시 선택할 수 있는 주요 알고리즘(RSA, DSA, ECDSA, Ed25519)의 특징과 차이점을 비교하고, 상황별 최적의 선택 방법을 알아봅니다."
 tags: ["ssh", "ssh-keygen", "ed25519", "rsa", "ecdsa", "dsa", "보안", "암호화"]
 categories: ["Linux"]
-image: "https://images.urinfo24.com/featured/ssh-keygen-algorithm-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/ssh-keygen-algorithm-guide-featured.jpg"
 lightgallery: true
 ---
 

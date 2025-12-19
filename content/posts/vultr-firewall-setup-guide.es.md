@@ -6,7 +6,7 @@ draft: false
 description: "Guía completa para asegurar servidores en la nube utilizando el firewall basado en web de Vultr. Desde crear Firewall Groups hasta la implementación práctica."
 tags: ["vultr", "firewall", "방화벽", "서버보안", "vps", "클라우드보안", "인프라"]
 categories: ["클라우드"]
-image: "https://images.urinfo24.com/featured/vultr-firewall-setup-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/vultr-firewall-setup-guide-featured.jpg"
 lightgallery: true
 ---
 

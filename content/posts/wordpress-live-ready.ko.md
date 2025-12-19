@@ -6,7 +6,7 @@ draft: false
 description: "로컬 개발부터 Vultr 클라우드 서버로의 배포, Cloudflare를 이용한 CDN 및 SSL 설정, 그리고 수익화 준비까지, 워드프레스 라이브 운영을 위한 A to Z 상세 가이드입니다."
 tags: ["워드프레스", "라이브서버", "Vultr", "Cloudflare", "Docker", "운영가이드"]
 categories: ["DevOps"]
-image: "https://images.urinfo24.com/featured/wordpress-live-ready-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/wordpress-live-ready-featured.jpg"
 lightgallery: true
 ---
 
