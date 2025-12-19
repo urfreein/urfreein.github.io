@@ -10,23 +10,6 @@ image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/htt
 lightgallery: true
 ---
 
-<!--
-IMAGE PROMPT FOR AI IMAGE GENERATOR:
-
-A cinematic, emotional illustration depicting Kratos and Atreus from God of War series showing their growth over time.
-- Style: Epic, painterly style with Norse mythology atmosphere, dramatic lighting
-- Subject: Split scene showing young Atreus (child) and teenage Atreus (adolescent) with Kratos at different stages
-- Elements: Norse runes in background, Leviathan Axe, snowy Nordic landscape, father-son silhouettes
-- Colors: Cool blue and white tones from snow, warm golden lighting on characters, deep shadows
-- Mood: Emotional, nostalgic, journey of growth, father-son bond
-- Composition: Left side shows younger time (2018), right side shows older time (Ragnarök), connected by a shared path or light
-
-Technical keywords: God of War, Kratos, Atreus, Norse mythology, father-son relationship, character growth
-
-SAVE AS: /home/freein/blog/urfreein.github.io/static/images/god-of-war-kratos-atreus-growth-story-featured.jpg
-
-NOTE: Hugo will serve this from /images/god-of-war-kratos-atreus-growth-story-featured.jpg
--->
 
 ## 1. 북유럽으로 돌아온 God of War
 
