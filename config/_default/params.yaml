@@ -11,8 +11,8 @@ sidebar:
   subtitle: Tech & Development Blog
   avatar:
     enabled: true
-    local: false
-    src: https://images.urinfo24.com/img/avatar_small.jpg
+    local: true
+    src: img/avatar_small.jpg
 
 # Article
 article:
@@ -64,8 +64,8 @@ opengraph:
 defaultImage:
   opengraph:
     enabled: true
-    local: false
-    src: https://images.urinfo24.com/img/logo.jpg
+    local: true
+    src: img/logo.jpg
 
 # Color Scheme
 colorScheme:
