@@ -1,8 +1,38 @@
+# Hugo build output
 public/
 resources/
 .hugo_build.lock
-.DS_Store
+
+# Dependencies
 node_modules/
+
+# OS files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*:Zone.Identifier
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Legacy Astro (migration remnants)
 .astro/
 .vite/
-*.Zone.Identifier
+dist/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Claude Code
+.claude/
+
+# Temp/backup
+*.tmp
+*.bak
+*.log
