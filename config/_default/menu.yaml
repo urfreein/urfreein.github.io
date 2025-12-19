@@ -7,8 +7,8 @@ main:
       icon: home
 
 social:
-  - identifier: github
-    name: GitHub
-    url: https://github.com/urfreein
+  - identifier: mail
+    name: Email
+    url: mailto:contack@urinfo24.com
     params:
-      icon: brand-github
+      icon: mail
