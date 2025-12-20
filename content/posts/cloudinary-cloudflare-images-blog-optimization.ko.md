@@ -2,7 +2,7 @@
 title: "Cloudinary vs Cloudflare Images: 블로그 이미지 최적화 완벽 가이드"
 date: 2025-12-20T04:45:52+09:00
 lastmod: 2025-12-20T04:45:52+09:00
-draft: true
+draft: false
 description: "Cloudinary와 Cloudflare Images를 비교하고 블로그 이미지 최적화를 위한 실전 가이드를 제공합니다. SEO, Core Web Vitals 개선을 위한 두 서비스의 특징과 선택 기준을 살펴봅니다."
 tags: ["이미지최적화", "Cloudinary", "CloudflareImages", "CDN", "블로그", "SEO", "CoreWebVitals", "웹성능"]
 categories: ["블로그운영"]
