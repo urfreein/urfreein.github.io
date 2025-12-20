@@ -159,4 +159,4 @@ languages:
 pagination:
   pagerSize: 10
 hasCJKLanguage: true
-enableRobotsTXT: true
+enableRobotsTXT: false  # static/robots.txt 사용
