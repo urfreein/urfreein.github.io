@@ -6,7 +6,7 @@ draft: false
 description: GitHub Pages와 Jekyll을 활용하여 무료로 개발자스러운 블로그를 만드는 완벽 가이드
 tags: ["github-pages", "jekyll", "정적-사이트", "블로그", "개발자-블로그"]
 categories: ["Tutorial"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/github-pages-jekyll-blog-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/github-pages-jekyll-blog-guide-featured.jpg"
 lightgallery: true
 ---
 

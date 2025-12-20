@@ -6,7 +6,7 @@ draft: false
 description: "一个扣人心弦的游戏，感觉就像一部戏剧 —— 《最后生还者》的故事。让我们也来思考一下围绕第二部的争议。"
 tags: ["the-last-of-us", "game-review", "naughty-dog", "story-game", "ps4"]
 categories: ["Game"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/last-of-us-game-review-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/last-of-us-game-review-featured.jpg"
 lightgallery: true
 ---
 

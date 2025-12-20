@@ -6,7 +6,7 @@ draft: false
 description: "手に汗握るドラマのようなゲーム、The Last of Usの物語。Part 2を巡る論争についても考えてみよう。"
 tags: ["the-last-of-us", "game-review", "naughty-dog", "story-game", "ps4"]
 categories: ["Game"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/last-of-us-game-review-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/last-of-us-game-review-featured.jpg"
 lightgallery: true
 ---
 

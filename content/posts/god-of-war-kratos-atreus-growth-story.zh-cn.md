@@ -6,7 +6,7 @@ draft: false
 description: "通过游玩《战神》（2018）和《诸神黄昏》所体验到的父子成长故事。我现实中的儿子与游戏中的阿特柔斯一同成长。"
 tags: ["god-of-war", "갓오브워", "ragnarok", "라그나로크", "크레이토스", "아트레우스", "게임리뷰", "부모게이머"]
 categories: ["Game"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/god-of-war-kratos-atreus-growth-story-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/god-of-war-kratos-atreus-growth-story-featured.jpg"
 lightgallery: true
 ---
 

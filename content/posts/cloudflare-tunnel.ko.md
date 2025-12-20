@@ -6,7 +6,7 @@ draft: false
 description: "Cloudflare Tunnel을 서비스 및 컨테이너로 설치하고, SSH 접속을 위한 완벽한 설정 방법을 알아봅니다."
 tags: ["cloudflare", "cloudflared", "tunnel", "ssh", "zero-trust"]
 categories: ["DevOps"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/cloudflare-tunnel-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/cloudflare-tunnel-featured.jpg"
 lightgallery: true
 ---
 

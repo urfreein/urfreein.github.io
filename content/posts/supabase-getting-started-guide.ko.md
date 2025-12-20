@@ -6,7 +6,7 @@ draft: false
 description: "백엔드 없이 앱을 만들고 싶다면? Supabase로 10분 만에 PostgreSQL 데이터베이스와 인증 시스템을 구축해보자."
 tags: ["supabase", "postgresql", "firebase-alternative", "backend", "authentication", "database"]
 categories: ["Backend"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/supabase-getting-started-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/supabase-getting-started-guide-featured.jpg"
 lightgallery: true
 ---
 

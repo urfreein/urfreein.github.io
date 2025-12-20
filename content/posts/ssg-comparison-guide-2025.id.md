@@ -6,7 +6,7 @@ draft: false
 description: "Perbandingan mendetail kelebihan dan kekurangan tools SSG utama termasuk Jekyll, Hugo, dan Astro, dengan benchmark performa build dan contoh praktis untuk membantu Anda memilih tool yang tepat."
 tags: ["SSG", "Static Site Generator", "Jekyll", "Hugo", "Astro", "Next.js", "Eleventy", "웹개발", "블로그", "성능최적화"]
 categories: ["Web Development"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/ssg-comparison-guide-2025-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/ssg-comparison-guide-2025-featured.jpg"
 lightgallery: true
 ---
 

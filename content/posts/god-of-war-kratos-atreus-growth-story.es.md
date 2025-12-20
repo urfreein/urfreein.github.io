@@ -6,7 +6,7 @@ draft: false
 description: "Una historia de crecimiento de padre e hijo experimentada jugando God of War (2018) y Ragnarök. Mi hijo de la vida real creció junto a Atreus en el juego."
 tags: ["god-of-war", "갓오브워", "ragnarok", "라그나로크", "크레이토스", "아트레우스", "게임리뷰", "부모게이머"]
 categories: ["Game"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/god-of-war-kratos-atreus-growth-story-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/god-of-war-kratos-atreus-growth-story-featured.jpg"
 lightgallery: true
 ---
 

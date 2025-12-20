@@ -6,7 +6,7 @@ draft: false
 description: "2015년 건강 문제로 멈춰 섰던 순간, 걷기, 산행, 그리고 하이브리드를 거쳐 로드 바이크를 만나 건강을 되찾기까지의 진솔한 여정과 그 과정에서 되살아난 어린 시절부터 학창 시절까지의 자전거 추억을 나눕니다."
 tags: ["로드바이크", "자전거", "건강회복", "하이브리드", "재활운동", "라이딩"]
 categories: ["Life"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/memories-of-bicycle-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/memories-of-bicycle-featured.jpg"
 lightgallery: true
 ---
 

@@ -6,7 +6,7 @@ draft: false
 description: "GitHub의 Projects 기능을 활용하여 팀의 작업 흐름을 명확히 하고, 경험이 부족한 팀원들도 손쉽게 업무를 관리하며 협업 효율을 높이는 실용적인 방법을 소개합니다."
 tags: ["GitHub", "Project", "협업", "팀관리", "효율화", "칸반"]
 categories: ["Collaboration"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/github-project-using-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/github-project-using-guide-featured.jpg"
 lightgallery: true
 ---
 

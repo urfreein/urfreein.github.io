@@ -6,7 +6,7 @@ draft: false
 description: "GitHub Pages에서 운영하던 Jekyll 블로그를 Cloudflare Pages로 안전하게 옮기는 단계별 가이드입니다."
 tags: ["github-pages", "cloudflare-pages", "jekyll", "migration", "blog"]
 categories: ["Blogging"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/migrate-github-pages-to-cloudflare-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/migrate-github-pages-to-cloudflare-featured.jpg"
 lightgallery: true
 ---
 

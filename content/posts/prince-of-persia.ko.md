@@ -6,7 +6,7 @@ draft: false
 description: "허큘리스 흑백 화면에서 CGA 컬러 화면으로의 변화를 경험했던 XT 컴퓨터 시절의 명작, '페르시아의 왕자'. 60분 압박 속에서 로토스코핑 기반의 긴장감 넘치는 액션을 회고합니다."
 tags: ["고전게임", "PrinceOfPersia", "XT컴퓨터", "허큘리스", "CGA", "플로피디스크"]
 categories: ["Game"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/prince-of-persia-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/prince-of-persia-featured.jpg"
 lightgallery: true
 ---
 

@@ -6,7 +6,7 @@ draft: false
 description: "Cloudflare Pages가 제공하는 강력한 보안, 빠른 속도, 다양한 빌드 도구 지원 등 블로그 호스팅의 새로운 표준을 살펴봅니다."
 tags: ["cloudflare-pages", "security", "performance", "static-site", "blog"]
 categories: ["Blogging"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/benefits-of-cloudflare-pages-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/benefits-of-cloudflare-pages-featured.jpg"
 lightgallery: true
 ---
 

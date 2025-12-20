@@ -6,7 +6,7 @@ draft: false
 description: "Một trò chơi căng thẳng đến nghẹt thở khiến bạn cảm giác như đang xem phim truyền hình - câu chuyện của The Last of Us. Cùng suy ngẫm về những tranh cãi xoay quanh Part 2."
 tags: ["the-last-of-us", "game-review", "naughty-dog", "story-game", "ps4"]
 categories: ["Game"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/last-of-us-game-review-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/last-of-us-game-review-featured.jpg"
 lightgallery: true
 ---
 

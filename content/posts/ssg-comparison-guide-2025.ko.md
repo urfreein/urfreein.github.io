@@ -6,7 +6,7 @@ draft: false
 description: "Jekyll, Hugo, Astro 등 주요 SSG 도구들의 장단점을 상세 비교하고, 빌드 성능 벤치마크와 실전 예제를 통해 최적의 선택 가이드를 제공합니다."
 tags: ["SSG", "Static Site Generator", "Jekyll", "Hugo", "Astro", "Next.js", "Eleventy", "웹개발", "블로그", "성능최적화"]
 categories: ["Web Development"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/ssg-comparison-guide-2025-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/ssg-comparison-guide-2025-featured.jpg"
 lightgallery: true
 ---
 

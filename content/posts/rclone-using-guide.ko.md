@@ -6,7 +6,7 @@ draft: false
 description: 저사양 VM 환경에서도 웹 인터페이스 없이 빠르고 간편하게 rclone을 사용하여 구글 드라이브 파일을 관리하는 방법을 다운로드부터 업로드/다운로드까지 단계별로 안내합니다.
 tags: ["rclone", "Windows10", "GoogleDrive", "CLI", "Vultr", "CloudStorage", "DataTransfer"]
 categories: ["Tech"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/rclone-using-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/rclone-using-guide-featured.jpg"
 lightgallery: true
 ---
 

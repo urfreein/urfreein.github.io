@@ -6,7 +6,7 @@ draft: false
 description: "So sánh Cloudinary và Cloudflare Images cùng hướng dẫn thực tế tối ưu hóa hình ảnh blog. Tìm hiểu về các tính năng và tiêu chí lựa chọn của cả hai dịch vụ để cải thiện SEO và Core Web Vitals."
 tags: ["이미지최적화", "Cloudinary", "CloudflareImages", "CDN", "블로그", "SEO", "CoreWebVitals", "웹성능"]
 categories: ["블로그운영"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/cloudinary-cloudflare-images-blog-optimization-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/cloudinary-cloudflare-images-blog-optimization-featured.jpg"
 lightgallery: true
 ---
 

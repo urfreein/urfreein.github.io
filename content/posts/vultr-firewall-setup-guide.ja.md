@@ -6,7 +6,7 @@ draft: false
 description: "VultrのWebベースファイアウォール機能を活用したクラウドサーバーのセキュリティ設定方法。Firewall Groupの作成から実践活用まで完全ガイド。"
 tags: ["vultr", "firewall", "방화벽", "서버보안", "vps", "클라우드보안", "인프라"]
 categories: ["클라우드"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/vultr-firewall-setup-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/vultr-firewall-setup-guide-featured.jpg"
 lightgallery: true
 ---
 

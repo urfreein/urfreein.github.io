@@ -6,7 +6,7 @@ draft: false
 description: "손에 땀을 쥐게 만든 게임, 한 편의 드라마 같았던 The Last of Us 이야기. Part 2의 논란에 대해서도 생각해보자."
 tags: ["the-last-of-us", "game-review", "naughty-dog", "story-game", "ps4"]
 categories: ["Game"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/last-of-us-game-review-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/last-of-us-game-review-featured.jpg"
 lightgallery: true
 ---
 

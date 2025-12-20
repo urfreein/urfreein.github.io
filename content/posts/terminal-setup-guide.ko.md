@@ -6,7 +6,7 @@ draft: false
 description: 
 tags: ["terminal", "dev-environment", "zsh", "powershell", "eza"]
 categories: ["Tutorial"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/terminal-setup-guide-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/terminal-setup-guide-featured.jpg"
 lightgallery: true
 ---
 

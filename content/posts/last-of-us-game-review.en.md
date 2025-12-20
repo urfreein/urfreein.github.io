@@ -6,7 +6,7 @@ draft: false
 description: "A nail-biting game that felt like a drama - the story of The Last of Us. Let's also think about the controversy surrounding Part 2."
 tags: ["the-last-of-us", "game-review", "naughty-dog", "story-game", "ps4"]
 categories: ["Game"]
-image: "https://urinfo24.com/cdn-cgi/image/width=1200,format=auto,quality=85/https://images.urinfo24.com/featured/last-of-us-game-review-featured.jpg"
+image: "https://urinfo24.com/cdn-cgi/image/width=800,format=auto,quality=75/https://images.urinfo24.com/featured/last-of-us-game-review-featured.jpg"
 lightgallery: true
 ---
 
