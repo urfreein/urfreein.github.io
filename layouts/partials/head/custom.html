@@ -1,21 +1,23 @@
 {{- if .Params.image -}}
+<!-- Preload LCP image with high priority -->
 <link rel="preload" as="image" href="{{ .Params.image }}" fetchpriority="high">
-<script>
-// Optimize LCP - remove lazy loading from first featured image
-// Runs immediately to prevent loading delay
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', optimizeLCP);
-} else {
-  optimizeLCP();
-}
 
-function optimizeLCP() {
-  const firstImg = document.querySelector('.article-list .article-image img, article .article-image img');
-  if (firstImg) {
-    firstImg.removeAttribute('loading');
-    firstImg.setAttribute('fetchpriority', 'high');
-    firstImg.setAttribute('decoding', 'async');
+<script>
+// Add fetchpriority to first featured image
+(function() {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setFetchPriority);
+  } else {
+    setFetchPriority();
   }
-}
+  
+  function setFetchPriority() {
+    var firstImg = document.querySelector('.article-list article:first-child .article-image img, article:first-of-type .article-image img');
+    if (firstImg) {
+      firstImg.setAttribute('fetchpriority', 'high');
+      firstImg.setAttribute('decoding', 'async');
+    }
+  }
+})();
 </script>
 {{- end -}}
