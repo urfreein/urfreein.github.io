@@ -14,50 +14,146 @@ languages:
     languageName: 한국어
     title: Urinfo24
     weight: 1
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 1
+          params:
+            icon: home
   en:
     languageName: English
     title: Urinfo24
     weight: 2
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /en/
+          weight: 1
+          params:
+            icon: home
   ja:
     languageName: 日本語
     title: Urinfo24
     weight: 3
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /ja/
+          weight: 1
+          params:
+            icon: home
   zh-cn:
     languageName: 简体中文
     title: Urinfo24
     weight: 4
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /zh-cn/
+          weight: 1
+          params:
+            icon: home
   de:
     languageName: Deutsch
     title: Urinfo24
     weight: 5
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /de/
+          weight: 1
+          params:
+            icon: home
   fr:
     languageName: Français
     title: Urinfo24
     weight: 6
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /fr/
+          weight: 1
+          params:
+            icon: home
   es:
     languageName: Español
     title: Urinfo24
     weight: 7
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /es/
+          weight: 1
+          params:
+            icon: home
   pt:
     languageName: Português
     title: Urinfo24
     weight: 8
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /pt/
+          weight: 1
+          params:
+            icon: home
   vi:
     languageName: Tiếng Việt
     title: Urinfo24
     weight: 9
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /vi/
+          weight: 1
+          params:
+            icon: home
   th:
     languageName: ไทย
     title: Urinfo24
     weight: 10
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /th/
+          weight: 1
+          params:
+            icon: home
   hi:
     languageName: हिन्दी
     title: Urinfo24
     weight: 11
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /hi/
+          weight: 1
+          params:
+            icon: home
   id:
     languageName: Bahasa Indonesia
     title: Urinfo24
     weight: 12
+    menus:
+      main:
+        - identifier: home
+          name: Home
+          url: /id/
+          weight: 1
+          params:
+            icon: home
 
 # 기본 설정
 pagination:

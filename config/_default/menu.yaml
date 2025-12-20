@@ -1,11 +1,3 @@
-main:
-  - identifier: home
-    name: Home
-    url: /
-    weight: 1
-    params:
-      icon: home
-
 social:
   - identifier: mail
     name: Email
