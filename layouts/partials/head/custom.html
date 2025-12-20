@@ -1,0 +1,21 @@
+{{- if .Params.image -}}
+<link rel="preload" as="image" href="{{ .Params.image }}" fetchpriority="high">
+<script>
+// Optimize LCP - remove lazy loading from first featured image
+// Runs immediately to prevent loading delay
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', optimizeLCP);
+} else {
+  optimizeLCP();
+}
+
+function optimizeLCP() {
+  const firstImg = document.querySelector('.article-list .article-image img, article .article-image img');
+  if (firstImg) {
+    firstImg.removeAttribute('loading');
+    firstImg.setAttribute('fetchpriority', 'high');
+    firstImg.setAttribute('decoding', 'async');
+  }
+}
+</script>
+{{- end -}}
