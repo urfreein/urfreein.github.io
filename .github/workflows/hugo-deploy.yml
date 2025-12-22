@@ -1,0 +1,78 @@
+name: Deploy Hugo site to Pages
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ 소스 코드 체크아웃
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      # 2️⃣ Node.js 설정 (Sass 설치 대비)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # 3️⃣ Dart Sass 바이너리 설치 (구조 유지)
+      - name: Install Dart Sass (binary)
+        run: |
+          curl -L -o dart-sass.tar.gz https://github.com/sass/dart-sass/releases/download/1.80.6/dart-sass-1.80.6-linux-x64.tar.gz
+          tar -xzf dart-sass.tar.gz
+          sudo mv dart-sass /usr/local/lib/dart-sass
+          sudo ln -s /usr/local/lib/dart-sass/sass /usr/local/bin/sass
+          sudo chmod -R 755 /usr/local/lib/dart-sass
+          sass --version
+
+      # 4️⃣ Hugo 설치 (extended 필수)
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      # 5️⃣ Hugo 캐시 정리 및 모듈 정리
+      - name: Clean Hugo Cache and Modules
+        run: |
+          rm -rf ~/.cache/hugo_cache
+          hugo mod tidy || true
+
+      # 6️⃣ Hugo 빌드
+      - name: Build Hugo
+        run: hugo --minify
+
+      # 7️⃣ 결과물 업로드
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
